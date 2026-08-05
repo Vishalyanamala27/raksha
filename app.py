@@ -156,7 +156,7 @@ def analyze_with_groq(prompt, system_message):
     """Call Groq API for analysis"""
     try:
         message = client.chat.completions.create(
-            model="llama3-8b-8192",  # Updated model
+            model="llama-3.1-8b-instant",  # Updated to supported model
             messages=[
                 {"role": "system", "content": system_message},
                 {"role": "user", "content": prompt}
