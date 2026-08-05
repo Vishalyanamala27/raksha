@@ -156,7 +156,7 @@ def analyze_with_groq(prompt, system_message):
     """Call Groq API for analysis"""
     try:
         message = client.chat.completions.create(
-            model="mixtral-8x7b-32768",
+            model="llama3-8b-8192",  # Updated model
             messages=[
                 {"role": "system", "content": system_message},
                 {"role": "user", "content": prompt}
@@ -166,7 +166,8 @@ def analyze_with_groq(prompt, system_message):
         )
         return message.choices[0].message.content
     except Exception as e:
-        return f"Error: {str(e)}"
+        st.error(f"Groq API Error: {str(e)}")
+        return None
 
 # Tabs
 tab1, tab2, tab3, tab4 = st.tabs([
@@ -207,6 +208,13 @@ Respond ONLY with valid JSON, no other text."""
                     system_prompt
                 )
                 
+                if response is None:
+                    st.stop()
+                
+                # Debug: show raw response
+                with st.expander("Debug - Raw Response"):
+                    st.code(response)
+                
                 try:
                     # Extract JSON from response
                     json_match = re.search(r'\{.*\}', response, re.DOTALL)
@@ -244,8 +252,9 @@ Respond ONLY with valid JSON, no other text."""
                     with col2:
                         st.write(f"**Telugu:**\n{result.get('advice_te', 'N/A')}")
                     
-                except json.JSONDecodeError:
-                    st.error("Could not parse response. Please try again.")
+                except json.JSONDecodeError as e:
+                    st.error(f"Could not parse response. Please try again.")
+                    st.text(f"Parse error: {str(e)}")
         else:
             st.warning("Please enter a message to analyze.")
 
@@ -278,6 +287,12 @@ Respond ONLY with valid JSON, no other text."""
                     f"Analyze this URL for phishing and scam risks: {url_input}",
                     system_prompt
                 )
+                
+                if response is None:
+                    st.stop()
+                
+                with st.expander("Debug - Raw Response"):
+                    st.code(response)
                 
                 try:
                     json_match = re.search(r'\{.*\}', response, re.DOTALL)
@@ -316,8 +331,9 @@ Respond ONLY with valid JSON, no other text."""
                     with col2:
                         st.write(f"**Telugu:**\n{result.get('explanation_te', 'N/A')}")
                     
-                except json.JSONDecodeError:
+                except json.JSONDecodeError as e:
                     st.error("Could not parse response. Please try again.")
+                    st.text(f"Parse error: {str(e)}")
         else:
             st.warning("Please enter a URL to analyze.")
 
@@ -362,6 +378,12 @@ Respond ONLY with valid JSON, no other text."""
                     system_prompt
                 )
                 
+                if response is None:
+                    st.stop()
+                
+                with st.expander("Debug - Raw Response"):
+                    st.code(response)
+                
                 try:
                     json_match = re.search(r'\{.*\}', response, re.DOTALL)
                     if json_match:
@@ -399,8 +421,9 @@ Respond ONLY with valid JSON, no other text."""
                     with col2:
                         st.write(f"**Telugu:**\n{result.get('advice_te', 'N/A')}")
                     
-                except json.JSONDecodeError:
+                except json.JSONDecodeError as e:
                     st.error("Could not parse response. Please try again.")
+                    st.text(f"Parse error: {str(e)}")
         else:
             st.warning("Please enter a phone number to analyze.")
 
@@ -443,6 +466,7 @@ with tab4:
         st.session_state.quiz_score = 0
         st.session_state.quiz_question_idx = 0
         st.session_state.quiz_answers = []
+        st.session_state.submitted = False
     
     if not st.session_state.quiz_started:
         if st.button("🎯 Start Quiz", key="start_quiz"):
@@ -456,30 +480,38 @@ with tab4:
             st.write(f"**{t['question']} {st.session_state.quiz_question_idx + 1}/{len(quiz_questions)}**")
             st.write(question)
             
-            answer = st.radio(
-                "Select your answer:",
-                q['options'],
-                key=f"q_{st.session_state.quiz_question_idx}"
-            )
-            
-            if st.button(t['submit_answer'], key=f"submit_{st.session_state.quiz_question_idx}"):
-                selected_idx = q['options'].index(answer)
-                if selected_idx == q['correct']:
-                    st.session_state.quiz_score += 1
+            if not st.session_state.submitted:
+                answer = st.radio(
+                    "Select your answer:",
+                    q['options'],
+                    key=f"q_{st.session_state.quiz_question_idx}"
+                )
+                
+                if st.button(t['submit_answer'], key=f"submit_{st.session_state.quiz_question_idx}"):
+                    selected_idx = q['options'].index(answer)
+                    if selected_idx == q['correct']:
+                        st.session_state.quiz_score += 1
+                        st.success("✅ Correct!")
+                    else:
+                        st.error(f"❌ Wrong! Correct answer: {q['options'][q['correct']]}")
+                    
+                    explanation = q['explanation_en'] if lang_code == 'en' else q['explanation_te']
+                    st.info(f"📖 {explanation}")
+                    
+                    st.session_state.quiz_answers.append(selected_idx == q['correct'])
+                    st.session_state.submitted = True
+                    st.rerun()
+            else:
+                explanation = q['explanation_en'] if lang_code == 'en' else q['explanation_te']
+                if st.session_state.quiz_answers[-1]:
                     st.success("✅ Correct!")
                 else:
                     st.error(f"❌ Wrong! Correct answer: {q['options'][q['correct']]}")
-                
-                explanation = q['explanation_en'] if lang_code == 'en' else q['explanation_te']
                 st.info(f"📖 {explanation}")
                 
-                st.session_state.quiz_question_idx += 1
-                st.session_state.quiz_answers.append(selected_idx == q['correct'])
-                
-                if st.session_state.quiz_question_idx < len(quiz_questions):
-                    st.button("Next Question →", key="next_q")
-                else:
-                    st.session_state.quiz_started = False
+                if st.button("Next Question →", key="next_q"):
+                    st.session_state.quiz_question_idx += 1
+                    st.session_state.submitted = False
                     st.rerun()
         else:
             st.success(f"🎉 Quiz Complete!")
@@ -491,6 +523,7 @@ with tab4:
                 st.session_state.quiz_score = 0
                 st.session_state.quiz_question_idx = 0
                 st.session_state.quiz_answers = []
+                st.session_state.submitted = False
                 st.rerun()
 
 # Footer
