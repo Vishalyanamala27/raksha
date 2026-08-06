@@ -502,37 +502,37 @@ with st.sidebar:
     st.write("Thousands of Indian families lose money to online scams every day. Elders are the biggest targets. Raksha protects, inspects, and teaches — in the family's own language.")
     st.markdown("---")
     
-   # Stats
-st.subheader("📊 Stats")
+       # Stats
+    st.subheader("📊 Stats")
 
-# Define translations
-t = {
-    "stats_scams_blocked": "Scams Blocked",
-    "stats_users_protected": "Users Protected",
-    "stats_accuracy": "Accuracy",
-}
+    # Define translations
+    t = {
+        "stats_scams_blocked": "Scams Blocked",
+        "stats_users_protected": "Users Protected",
+        "stats_accuracy": "Accuracy",
+    }
 
-# Safely initialize session state (prevents crashes on first load)
-for key, default in [("scams_detected", 0), ("users_protected", 0), ("accuracy", 95)]:
-    if key not in st.session_state:
-        st.session_state[key] = default
+    # Safely initialize session state (prevents crashes on first load)
+    for key, default in [("scams_detected", 0), ("users_protected", 0), ("accuracy", 95)]:
+        if key not in st.session_state:
+            st.session_state[key] = default
 
-st.metric(t["stats_scams_blocked"], st.session_state.scams_detected)
-st.metric(t["stats_users_protected"], st.session_state.users_protected)
-st.metric(t["stats_accuracy"], f"{st.session_state.accuracy}%")  # Fixed: was t[" "]
-st.markdown("---")
+    st.metric(t["stats_scams_blocked"], st.session_state.scams_detected)
+    st.metric(t["stats_users_protected"], st.session_state.users_protected)
+    st.metric(t["stats_accuracy"], f"{st.session_state.accuracy}%")  # Fixed: was t[" "]
+    st.markdown("---")
 
-# Why Raksha wins
-st.subheader("✅ Why Raksha wins")
-st.markdown("☑️ Real problem, real mission")
-st.markdown("☑️ 4 working safety tools")
-st.markdown("☑️ 5 Indian languages supported")
-st.markdown("☑️ 3D glass UI with live depth effects")
-st.markdown("---")
+    # Why Raksha wins
+    st.subheader("✅ Why Raksha wins")
+    st.markdown("☑️ Real problem, real mission")
+    st.markdown("☑️ 4 working safety tools")
+    st.markdown("☑️ 5 Indian languages supported")
+    st.markdown("☑️ 3D glass UI with live depth effects")
+    st.markdown("---")
 
-st.caption("🛡️ Raksha - Family Digital Safety Guardian")
-st.caption("Made with 💚 for Digital Safety")
-st.caption("Model: llama-3.1-8b-instant via Groq")
+    st.caption("🛡️ Raksha - Family Digital Safety Guardian")
+    st.caption("Made with 💚 for Digital Safety")
+    st.caption("Model: llama-3.1-8b-instant via Groq")
 
 # ==================== LANGUAGE SELECTOR ====================
 col1, col2 = st.columns([0.9, 0.1])
