@@ -12,29 +12,141 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# Custom CSS
+# ==================== CUSTOM CSS (3D + Glass) ====================
 st.markdown("""
     <style>
-    .main { padding: 2rem; }
-    .stTabs [data-baseweb="tab-list"] button { font-size: 16px; font-weight: 600; }
+    .main {
+        padding: 2rem;
+        background: linear-gradient(135deg, #f0f4ff 0%, #e0e7ff 100%);
+    }
+    .stTabs [data-baseweb="tab-list"] button {
+        font-size: 16px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+    .stTabs [data-baseweb="tab-list"] button:hover {
+        transform: translateY(-2px);
+    }
+    
+    /* 3D Button Styling */
+    .stButton > button {
+        background: linear-gradient(145deg, #3b82f6, #2563eb) !important;
+        color: white !important;
+        border: none !important;
+        border-radius: 12px !important;
+        padding: 0.75rem 2rem !important;
+        font-weight: 600 !important;
+        font-size: 16px !important;
+        box-shadow: 0 6px 0 #1d4ed8, 0 8px 15px rgba(37, 99, 235, 0.3) !important;
+        transition: all 0.1s ease !important;
+        transform: translateY(0) !important;
+    }
+    .stButton > button:hover {
+        transform: translateY(-2px) !important;
+        box-shadow: 0 8px 0 #1d4ed8, 0 12px 20px rgba(37, 99, 235, 0.4) !important;
+    }
+    .stButton > button:active {
+        transform: translateY(6px) !important;
+        box-shadow: 0 0 0 #1d4ed8, 0 2px 5px rgba(37, 99, 235, 0.3) !important;
+    }
+    
+    /* Secondary buttons */
+    .stButton > button[kind="secondary"] {
+        background: linear-gradient(145deg, #10b981, #059669) !important;
+        box-shadow: 0 6px 0 #047857, 0 8px 15px rgba(5, 150, 105, 0.3) !important;
+    }
+    .stButton > button[kind="secondary"]:hover {
+        box-shadow: 0 8px 0 #047857, 0 12px 20px rgba(5, 150, 105, 0.4) !important;
+    }
+    .stButton > button[kind="secondary"]:active {
+        transform: translateY(6px) !important;
+        box-shadow: 0 0 0 #047857, 0 2px 5px rgba(5, 150, 105, 0.3) !important;
+    }
+    
+    /* Glassmorphism Badges */
     .scam-badge {
-        padding: 0.5rem 1rem; border-radius: 0.5rem; font-weight: 600;
-        display: inline-block; margin: 0.5rem 0;
+        padding: 0.6rem 1.2rem;
+        border-radius: 1rem;
+        font-weight: 700;
+        display: inline-block;
+        margin: 0.5rem 0;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
     }
-    .scam-high { background-color: #fee2e2; color: #991b1b; }
-    .scam-medium { background-color: #fef3c7; color: #92400e; }
-    .scam-low { background-color: #dcfce7; color: #15803d; }
-    .scam-safe { background-color: #d1fae5; color: #065f46; }
+    .scam-high {
+        background: rgba(254, 226, 226, 0.85);
+        color: #991b1b;
+        box-shadow: 0 4px 15px rgba(153, 27, 27, 0.2);
+    }
+    .scam-medium {
+        background: rgba(254, 243, 199, 0.85);
+        color: #92400e;
+        box-shadow: 0 4px 15px rgba(146, 64, 14, 0.2);
+    }
+    .scam-low {
+        background: rgba(220, 252, 231, 0.85);
+        color: #15803d;
+        box-shadow: 0 4px 15px rgba(21, 128, 61, 0.2);
+    }
+    .scam-safe {
+        background: rgba(209, 250, 229, 0.85);
+        color: #065f46;
+        box-shadow: 0 4px 15px rgba(6, 95, 70, 0.2);
+    }
+    
+    /* 3D Report Button */
     .report-btn {
-        background-color: #dc2626; color: white; padding: 0.5rem 1rem;
-        border-radius: 0.5rem; text-decoration: none; font-weight: 600;
-        display: inline-block; margin-top: 0.5rem;
+        background: linear-gradient(145deg, #dc2626, #b91c1c);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 12px;
+        text-decoration: none;
+        font-weight: 700;
+        display: inline-block;
+        margin-top: 0.5rem;
+        box-shadow: 0 6px 0 #991b1b, 0 8px 15px rgba(220, 38, 38, 0.3);
+        transition: all 0.1s ease;
     }
-    .report-btn:hover { background-color: #b91c1c; }
+    .report-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 0 #991b1b, 0 12px 20px rgba(220, 38, 38, 0.4);
+    }
+    .report-btn:active {
+        transform: translateY(6px);
+        box-shadow: 0 0 0 #991b1b, 0 2px 5px rgba(220, 38, 38, 0.3);
+    }
+    
+    /* Sidebar Glass */
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #f8fafc 0%, #e2e8f0 100%) !important;
+        border-right: 1px solid rgba(255,255,255,0.5);
+    }
+    
+    /* Inputs */
+    .stTextInput > div > div > input, .stTextArea > div > div > textarea {
+        border-radius: 12px !important;
+        border: 2px solid #e2e8f0 !important;
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.05) !important;
+        transition: all 0.3s ease !important;
+    }
+    .stTextInput > div > div > input:focus, .stTextArea > div > div > textarea:focus {
+        border-color: #3b82f6 !important;
+        box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2), inset 0 2px 4px rgba(0,0,0,0.05) !important;
+    }
+    
+    /* Metrics 3D */
+    [data-testid="stMetric"] {
+        background: white;
+        border-radius: 16px;
+        padding: 1rem;
+        box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        border: 1px solid rgba(255,255,255,0.5);
+    }
     </style>
 """, unsafe_allow_html=True)
 
-# Initialize Groq Client
+# ==================== GROQ CLIENT ====================
 @st.cache_resource
 def get_groq_client():
     api_key = os.getenv("GROQ_API_KEY")
@@ -45,7 +157,7 @@ def get_groq_client():
 
 client = get_groq_client()
 
-# Language Options
+# ==================== LANGUAGE SETUP ====================
 LANGUAGE_OPTIONS = {
     "English": "en",
     "తెలుగు (Telugu)": "te",
@@ -54,7 +166,6 @@ LANGUAGE_OPTIONS = {
     "ಕನ್ನಡ (Kannada)": "kn"
 }
 
-# Translations
 TRANSLATIONS = {
     "en": {
         "title": "🛡️ Raksha - Family Digital Safety Guardian",
@@ -248,7 +359,7 @@ TRANSLATIONS = {
     }
 }
 
-# Session state for stats
+# ==================== SESSION STATE ====================
 if "scams_detected" not in st.session_state:
     st.session_state.scams_detected = 1247
 if "users_protected" not in st.session_state:
@@ -256,7 +367,7 @@ if "users_protected" not in st.session_state:
 if "accuracy" not in st.session_state:
     st.session_state.accuracy = 96.5
 
-# Sidebar
+# ==================== SIDEBAR ====================
 with st.sidebar:
     st.title("🛡️ Raksha")
     st.markdown("---")
@@ -269,7 +380,7 @@ with st.sidebar:
     st.caption("Made with 💚 for Digital Safety")
     st.caption("Powered by Groq AI")
 
-# Language Selection
+# ==================== LANGUAGE SELECTOR ====================
 col1, col2 = st.columns([0.9, 0.1])
 with col2:
     selected_language = st.selectbox(
@@ -281,7 +392,7 @@ with col2:
 
 t = TRANSLATIONS[lang_code]
 
-# Header
+# ==================== HEADER ====================
 st.markdown(f"# {t['title']}")
 st.markdown(f"*{t['subtitle']}*")
 st.divider()
@@ -297,7 +408,7 @@ with col3:
 
 st.divider()
 
-# Function to analyze with Groq
+# ==================== GROQ ANALYSIS FUNCTION ====================
 def analyze_with_groq(prompt, system_message):
     try:
         message = client.chat.completions.create(
@@ -314,7 +425,7 @@ def analyze_with_groq(prompt, system_message):
         st.error(f"Groq API Error: {str(e)}")
         return None
 
-# Helper to show report button
+# ==================== REPORT BUTTON HELPER ====================
 def show_report_button(lang_code="en"):
     report_text = TRANSLATIONS[lang_code].get("report_scam", "Report Scam")
     st.markdown(
@@ -323,7 +434,7 @@ def show_report_button(lang_code="en"):
         unsafe_allow_html=True
     )
 
-# Tabs
+# ==================== TABS ====================
 tab1, tab2, tab3, tab4 = st.tabs([
     f"📱 {t['message_checker']}",
     f"🔗 {t['link_inspector']}",
@@ -346,9 +457,9 @@ with tab1:
     if st.button(t['analyze_btn'], key="msg_btn"):
         if message_input.strip():
             with st.spinner("🔍 Analyzing message..."):
-                system_prompt = f"""You are an expert in identifying scams and fraudulent messages. 
+                system_prompt = """You are an expert in identifying scams and fraudulent messages. 
 Analyze the given message and provide a JSON response with:
-{{
+{
   "verdict": "scam|suspicious|safe",
   "confidence": 0-100,
   "red_flags": ["flag1", "flag2"],
@@ -357,7 +468,7 @@ Analyze the given message and provide a JSON response with:
   "advice_ta": "Tamil advice",
   "advice_hi": "Hindi advice",
   "advice_kn": "Kannada advice"
-}}
+}
 Respond ONLY with valid JSON, no other text."""
                 
                 response = analyze_with_groq(
@@ -443,9 +554,9 @@ with tab2:
     if st.button(t['analyze_url'], key="url_btn"):
         if url_input.strip():
             with st.spinner("🔍 Analyzing URL..."):
-                system_prompt = f"""You are an expert in identifying phishing and malicious links.
+                system_prompt = """You are an expert in identifying phishing and malicious links.
 Analyze the given URL and provide a JSON response with:
-{{
+{
   "risk_level": "high|medium|low|safe",
   "risk_score": 0-100,
   "risk_factors": ["factor1", "factor2"],
@@ -454,7 +565,7 @@ Analyze the given URL and provide a JSON response with:
   "explanation_ta": "Tamil explanation",
   "explanation_hi": "Hindi explanation",
   "explanation_kn": "Kannada explanation"
-}}
+}
 Respond ONLY with valid JSON, no other text."""
                 
                 response = analyze_with_groq(
@@ -552,9 +663,9 @@ with tab3:
     if st.button(t['analyze_call'], key="call_btn"):
         if phone_input.strip():
             with st.spinner("🔍 Analyzing call..."):
-                system_prompt = f"""You are an expert in identifying phone scams and spam calls.
+                system_prompt = """You are an expert in identifying phone scams and spam calls.
 Analyze the given phone number and call details. Provide a JSON response with:
-{{
+{
   "verdict": "scam|suspicious|safe",
   "confidence": 0-100,
   "call_risk": "high|medium|low",
@@ -564,7 +675,7 @@ Analyze the given phone number and call details. Provide a JSON response with:
   "advice_ta": "Tamil advice",
   "advice_hi": "Hindi advice",
   "advice_kn": "Kannada advice"
-}}
+}
 Respond ONLY with valid JSON, no other text."""
                 
                 response = analyze_with_groq(
@@ -753,7 +864,7 @@ with tab4:
                 st.session_state.submitted = False
                 st.rerun()
 
-# Footer
+# ==================== FOOTER ====================
 st.divider()
 st.markdown(f"""
     <div style='text-align: center; color: gray; font-size: 12px;'>
