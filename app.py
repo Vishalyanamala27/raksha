@@ -541,6 +541,8 @@ UI_TRANSLATIONS = {
         "scam_label": "Scam",
         "english": "English",
         "report": "Report Scam",
+        "messages_checked": "messages checked",
+        "scams_caught": "scams caught",
         "footer_model": "Made with 💚 for Digital Safety | Model: llama-3.1-8b-instant via Groq",
     },
     "te": {
