@@ -763,7 +763,7 @@ UI_TRANSLATIONS = {
         "logged_in_as": "लॉग इन किया हुआ है", "my_history": "मेरा इतिहास", "total_checks": "कुल जांच",
     },
     "kn": {
-        "language_label": "ಭಾಷೆ", "mission": "ನಮ್ಮ ಗುರಿ", "mission_text": "ಪ್ರತಿ ದಿನ ಸಾವಿರಾರು ಭಾರತೀಯ ಕುಟುಂಬಗಳು ಆನ್‌ಲೈನ್ ಮೋಸಗಳಿಂದ ಹಣ ಕಳೆದುಕೊಳ್ಳುತ್ತವೆ. ರಕ್ಷ ನಿಮ್ಮ ಕುಟುಂಬವನ್ನು ಅವರದೇ ಭಾಷೆಯಲ್ಲಿ ರಕ್ಷಿಸುತ್ತದೆ, ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಕಲಿಸುತ್ತದೆ.", "stats": "ಅಂಕಿಅಂಶಗಳು", "why_raksha": "ರಕ್ಷ ಏಕೆ ಗೆಲ್ಲುತ್ತದೆ", "why_1": "☑️ ನಿಜವಾದ ಸಮಸ್ಯೆ, ನಿಜವಾದ ಗುರಿ", "why_2": "☑️ 4 ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಸುರಕ್ಷತಾ ಸಾಧನಗಳು", "why_3": "☑️ 5 ಭಾರತೀಯ ಭಾಷೆಗಳಿಗೆ ಬೆಂಬಲ", "why_4": "☑️ 3D ಗ್ಲಾಸ್ UI ಮತ್ತು ಲೈವ್ ಡೆಪ್ತ್ ಎಫೆಕ್ಟ್ಸ್", "made_for": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ", "hero_title": "ರಕ್ಷ — ಕುಟುಂಬ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತಾ ರಕ್ಷಕ", "hero_subtitle": "ಕುಟುಂಬಗಳನ್ನು ಆನ್‌ಲೈನ್ ವಂಚನೆಯಿಂದ ರಕ್ಷಿಸುತ್ತದೆ — ಮೋಸ ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಅನುಮಾನಾಸ್ಪದ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಕರೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಮೋಸವನ್ನು ಗುರುತಿಸಲು ಕಲಿಸುತ್ತದೆ.", "fake_lottery": "🎰 ನಕಲಿ ಲಾಟರಿ", "fake_bank": "🏦 ನಕಲಿ ಬ್ಯಾಂಕ್ ಎಚ್ಚರಿಕೆ", "fake_delivery": "📦 ನಕಲಿ ಡೆಲಿವರಿ", "suspicious_message": "ಅನುಮಾನಾಸ್ಪದ ಸಂದೇಶ:", "url_description": "ಫಿಶಿಂಗ್ ಮತ್ತು ಹಾನಿಕಾರಕ ಲಿಂಕ್‌ಗಳಿಗಾಗಿ ಅನುಮಾನಾಸ್ಪದ URL ಅನ್ನು ಪರಿಶೀಲಿಸಿ.", "call_description_label": "🗣️ ಕರೆ ಮಾಡಿದವರು ಏನು ಹೇಳಿದರು ಅಥವಾ ಏನು ಕೇಳಿದರು?", "call_description_placeholder": "ಉದಾಹರಣೆ: ಕರೆ ಮಾಡಿದವರು ಬ್ಯಾಂಕಿನಿಂದ ಬಂದವರು ಎಂದು ಹೇಳಿ ಖಾತೆ ತೆರೆಯಲು OTP ಕೇಳಿದರು.", "call_checker_description": "ಕರೆ ಮಾಡಿದವರನ್ನು ನಂಬುವ ಮೊದಲು ಟೆಲಿಕಾಂ ಮಾಹಿತಿ, ನೋಂದಾಯಿತ ಪ್ರದೇಶ, ಕರೆ ವರ್ತನೆ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "location_notice": "📍 ಇಲ್ಲಿ ತೋರಿಸುವ ಸ್ಥಳವು ಲಭ್ಯವಿದ್ದಾಗ ಫೋನ್ ಸಂಖೆಯ ನೋಂದಾಯಿತ ಟೆಲಿಕಾಂ ಪ್ರದೇಶವಾಗಿದೆ — ಇದು ಕರೆ ಮಾಡಿದವರ ಲೈವ್ GPS ಸ್ಥಳವಲ್ಲ.", "privacy_notice": "🔐 ಗೌಪ್ಯತೆ: ಪೂರ್ಣ ಫೋನ್ ಸಂಖೆಯನ್ನು ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್‌ಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. AIಗೆ ಮಸ್ಕ್ ಮಾಡಿದ ಸಂಖ್ಯೆ ಮತ್ತು ಕರೆ ವಿವರಗಳನ್ನು ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.", "checking_call": "🔍 ಸಂಖ್ಯೆ, ಕ್ಯಾರಿಯರ್, ನೋಂದಾಯಿತ ಸ್ಥಳ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...", "invalid_phone": "❌ ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ. ಭಾರತೀಯ ಸಂಖ್ಯೆಗೆ 10 ಅಂಕೆಗಳು ಅಥವಾ +91 ಜೊತೆಗೆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "telecom_intelligence": "📡 ಟೆಲಿಕಾಂ & SIM/ನೆಟ್‌ವರ್ಕ್ ಮಾಹಿತಿ", "number_valid": "ಸಂಖ್ಯೆ ಮಾನ್ಯ", "yes": "ಹೌದು", "no": "ಇಲ್ಲ", "unknown": "ತಿಳಿದಿಲ್ಲ", "carrier": "ಕ್ಯಾರಿಯರ್ / ನೆಟ್‌ವರ್ಕ್", "line_type": "ಲೈನ್ ಪ್ರಕಾರ", "line_status": "ಲೈನ್ ಸ್ಥಿತಿ", "country": "🌍 ದೇಶ", "region": "📍 ಪ್ರದೇಶ", "registered_city": "🏙️ ನೋಂದಾಯಿತ ನಗರ", "timezone": "🕐 ಸಮಯ ವಲಯ", "lookup_unavailable": "⚠️ ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್ ಲಭ್ಯವಿಲ್ಲ. ಕರೆ ವರ್ತನೆ ಮತ್ತು AI ಸೂಚನೆಗಳಿಂದ ಕರೆ ವಿಶ್ಲೇಷಿಸಬಹುದು.", "lookup_detail": "ಲುಕ್‌ಅಪ್ ವಿವರ", "risk_evidence": "📊 ಅಪಾಯದ ಸಾಕ್ಷ್ಯ", "behavior_risk": "ವರ್ತನೆ ಅಪಾಯ", "calls_received": "ಸ್ವೀಕರಿಸಿದ ಕರೆಗಳು", "overall_risk": "ಒಟ್ಟು ಅಪಾಯ", "telecom_assessment": "📡 ಟೆಲಿಕಾಂ ಮೌಲ್ಯಮಾಪನ", "telecom_not_verdict": "ಟೆಲಿಕಾಂ ಡೇಟಾ ಸಹಾಯಕ ಸಾಕ್ಷ್ಯ ಮಾತ್ರ; ಇದರಿಂದ ಕರೆ ಮಾಡಿದವರು ಮೋಸಗಾರರು ಎಂದು ಸಾಬೀತಾಗುವುದಿಲ್ಲ.", "quiz_description": "ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಮೋಸಗಳು ಸಂಭವಿಸುವ ಮೊದಲು ಅವುಗಳನ್ನು ಗುರುತಿಸಲು ಕಲಿಯಿರಿ.", "correct": "✅ ಸರಿಯಾಗಿದೆ!", "incorrect": "❌ ತಪ್ಪಾಗಿದೆ!", "select_answer": "ದಯವಿಟ್ಟು ಮೊದಲು ಉತ್ತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.", "perfect_score": "🎉 ಪರಿಪೂರ್ಣ ಸ್ಕೋರ್! ನೀವು ಮೋಸ ಪತ್ತೆಹಚ್ಚುವ ತಜ್ಞರು!", "report_scam_title": "ಮೋಸವನ್ನು ವರದಿ ಮಾಡಿ", "raw_response": "ಡೀಬಗ್ - ಮೂಲ ಪ್ರತಿಸ್ಪಂದನ", "groq_error": "Groq API ದೋಷ", "parse_error": "ಪ್ರತಿಸ್ಪಂದನವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.", "enter_message": "ವಿಶ್ಲೇಷಿಸಲು ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ.", "enter_url": "ವಿಶ್ಲೇಷಿಸಲು URL ಅನ್ನು ನಮೂದಿಸಿ.", "enter_phone": "ವಿಶ್ಲೇಷಿಸಲು ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "safe_label": "ಸುರಕ್ಷಿತ", "suspicious_label": "ಅನುಮಾನಾಸ್ಪದ", "scam_label": "ಸ್ಕ್ಯಾಮ್", "english": "ಆಂಗ್ಲ", "report": "ಸ್ಕ್ಯಾಮ್ ವರದಿ ಮಾಡಿ", "messages_checked": "ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ", "scams_caught": "ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಹಿಡಿದುಕೊಂಡಿದೆ", "footer_model": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ | ಮಾದರಿ: llama-3.1-8b-instant via Groq",
+        "language_label": "ಭಾಷೆ", "mission": "ನಮ್ಮ ಗುರಿ", "mission_text": "ಪ್ರತಿ ದಿನ ಸಾವಿರಾರು ಭಾರತೀಯ ಕುಟುಂಬಗಳು ಆನ್‌ಲೈನ್ ಮೋಸಗಳಿಂದ ಹಣ ಕಳೆದುಕೊಳ್ಳುತ್ತವೆ. ರಕ್ಷ ನಿಮ್ಮ ಕುಟುಂಬವನ್ನು ಅವರದೇ ಭಾಷೆಯಲ್ಲಿ ರಕ್ಷಿಸುತ್ತದೆ, ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಕಲಿಸುತ್ತದೆ.", "stats": "ಅಂಕಿಅಂಶಗಳು", "why_raksha": "ರಕ್ಷ ಏಕೆ ಗೆಲ್ಲುತ್ತದೆ", "why_1": "☑️ ನಿಜವಾದ ಸಮಸ್ಯೆ, ನಿಜವಾದ ಗುರಿ", "why_2": "☑️ 4 ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಸುರಕ್ಷತಾ ಸಾಧನಗಳು", "why_3": "☑️ 5 ಭಾರತೀಯ ಭಾಷೆಗಳಿಗೆ ಬೆಂಬಲ", "why_4": "☑️ 3D ಗ್ಲಾಸ್ UI ಮತ್ತು ಲೈವ್ ಡೆಪ್ತ್ ಎಫೆಕ್ಟ್ಸ್", "made_for": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ", "hero_title": "ರಕ್ಷ — ಕುಟುಂಬ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತಾ ರಕ್ಷಕ", "hero_subtitle": "ಕುಟುಂಬಗಳನ್ನು ಆನ್‌ಲೈನ್ ವಂಚನೆಯಿಂದ ರಕ್ಷಿಸುತ್ತದೆ — ಮೋಸ ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಅನುಮಾನಾಸ್ಪದ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಕರೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಮೋಸವನ್ನು ಗುರುತಿಸಲು ಕಲಿಸುತ್ತದೆ.", "fake_lottery": "🎰 ನಕಲಿ ಲಾಟರಿ", "fake_bank": "🏦 ನಕಲಿ ಬ್ಯಾಂಕ್ ಎಚ್ಚರಿಕೆ", "fake_delivery": "📦 ನಕಲಿ ಡೆಲಿವರಿ", "suspicious_message": "ಅನುಮಾನಾಸ್ಪದ ಸಂದೇಶ:", "url_description": "ಫಿಶಿಂಗ್ ಮತ್ತು ಹಾನಿಕಾರಕ ಲಿಂಕ್‌ಗಳಿಗಾಗಿ ಅನುಮಾನಾಸ್ಪದ URL ಅನ್ನು ಪರಿಶೀಲಿಸಿ.", "call_description_label": "🗣️ ಕರೆ ಮಾಡಿದವರು ಏನು ಹೇಳಿದರು ಅಥವಾ ಏನು ಕೇಳಿದರು?", "call_description_placeholder": "ಉದಾಹರಣೆ: ಕರೆ ಮಾಡಿದವರು ಬ್ಯಾಂಕಿನಿಂದ ಬಂದವರು ಎಂದು ಹೇಳಿ ಖಾತೆ ತೆರೆಯಲು OTP ಕೇಳಿದರು.", "call_checker_description": "ಕರೆ ಮಾಡಿದವರನ್ನು ನಂಬುವ ಮೊದಲು ಟೆಲಿಕಾಂ ಮಾಹಿತಿ, ನೋಂದಾಯಿತ ಪ್ರದೇಶ, ಕರೆ ವರ್ತನೆ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "location_notice": "📍 ಇಲ್ಲಿ ತೋರಿಸುವ ಸ್ಥಳವು ಲಭ್ಯವಿದ್ದಾಗ ಫೋನ್ ಸಂಖೆಯ ನೋಂದಾಯಿತ ಟೆಲಿಕಾಂ ಪ್ರದೇಶವಾಗಿದೆ — ಇದು ಕರೆ ಮಾಡಿದವರ ಲೈವ್ GPS ಸ್ಥಳವಲ್ಲ.", "privacy_notice": "🔐 ಗೌಪ್ಯತೆ: ಪೂರ್ಣ ಫೋನ್ ಸಂಖೆಯನ್ನು ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್‌ಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. AIಗೆ ಮಸ್ಕ್ ಮಾಡಿದ ಸಂಖ್ಯೆ ಮತ್ತು ಕರೆ ವಿವರಗಳನ್ನು ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.", "checking_call": "🔍 ಸಂಖ್ಯೆ, ಕ್ಯಾರಿಯರ್, ನೋಂದಾಯಿತ ಸ್ಥಳ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...", "invalid_phone": "❌ ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ. ಭಾರತೀಯ ಸಂಖ್ಯೆಗೆ 10 ಅಂಕೆಗಳು ಅಥವಾ +91 ಜೊತೆಗೆ ಸಂಖೆಯನ್ನು ನಮೂದಿಸಿ.", "telecom_intelligence": "📡 ಟೆಲಿಕಾಂ & SIM/ನೆಟ್‌ವರ್ಕ್ ಮಾಹಿತಿ", "number_valid": "ಸಂಖ್ಯೆ ಮಾನ್ಯ", "yes": "ಹೌದು", "no": "ಇಲ್ಲ", "unknown": "ತಿಳಿದಿಲ್ಲ", "carrier": "ಕ್ಯಾರಿಯರ್ / ನೆಟ್‌ವರ್ಕ್", "line_type": "ಲೈನ್ ಪ್ರಕಾರ", "line_status": "ಲೈನ್ ಸ್ಥಿತಿ", "country": "🌍 ದೇಶ", "region": "📍 ಪ್ರದೇಶ", "registered_city": "🏙️ ನೋಂದಾಯಿತ ನಗರ", "timezone": "🕐 ಸಮಯ ವಲಯ", "lookup_unavailable": "⚠️ ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್ ಲಭ್ಯವಿಲ್ಲ. ಕರೆ ವರ್ತನೆ ಮತ್ತು AI ಸೂಚನೆಗಳಿಂದ ಕರೆ ವಿಶ್ಲೇಷಿಸಬಹುದು.", "lookup_detail": "ಲುಕ್‌ಅಪ್ ವಿವರ", "risk_evidence": "📊 ಅಪಾಯದ ಸಾಕ್ಷ್ಯ", "behavior_risk": "ವರ್ತನೆ ಅಪಾಯ", "calls_received": "ಸ್ವೀಕರಿಸಿದ ಕರೆಗಳು", "overall_risk": "ಒಟ್ಟು ಅಪಾಯ", "telecom_assessment": "📡 ಟೆಲಿಕಾಂ ಮೌಲ್ಯಮಾಪನ", "telecom_not_verdict": "ಟೆಲಿಕಾಂ ಡೇಟಾ ಸಹಾಯಕ ಸಾಕ್ಷ್ಯ ಮಾತ್ರ; ಇದರಿಂದ ಕರೆ ಮಾಡಿದವರು ಮೋಸಗಾರರು ಎಂದು ಸಾಬೀತಾಗುವುದಿಲ್ಲ.", "quiz_description": "ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಮೋಸಗಳು ಸಂಭವಿಸುವ ಮೊದಲು ಅವುಗಳನ್ನು ಗುರುತಿಸಲು ಕಲಿಯಿರಿ.", "correct": "✅ ಸರಿಯಾಗಿದೆ!", "incorrect": "❌ ತಪ್ಪಾಗಿದೆ!", "select_answer": "ದಯವಿಟ್ಟು ಮೊದಲು ಉತ್ತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.", "perfect_score": "🎉 ಪರಿಪೂರ್ಣ ಸ್ಕೋರ್! ನೀವು ಮೋಸ ಪತ್ತೆಹಚ್ಚುವ ತಜ್ಞರು!", "report_scam_title": "ಮೋಸವನ್ನು ವರದಿ ಮಾಡಿ", "raw_response": "ಡೀಬಗ್ - ಮೂಲ ಪ್ರತಿಸ್ಪಂದನ", "groq_error": "Groq API ದೋಷ", "parse_error": "ಪ್ರತಿಸ್ಪಂದನವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.", "enter_message": "ವಿಶ್ಲೇಷಿಸಲು ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ.", "enter_url": "ವಿಶ್ಲೇಷಿಸಲು URL ಅನ್ನು ನಮೂದಿಸಿ.", "enter_phone": "ವಿಶ್ಲೇಷಿಸಲು ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "safe_label": "ಸುರಕ್ಷಿತ", "suspicious_label": "ಅನುಮಾನಾಸ್ಪದ", "scam_label": "ಸ್ಕ್ಯಾಮ್", "english": "ಆಂಗ್ಲ", "report": "ಸ್ಕ್ಯಾಮ್ ವರದಿ ಮಾಡಿ", "messages_checked": "ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ", "scams_caught": "ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಹಿಡಿದುಕೊಂಡಿದೆ", "footer_model": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ | ಮಾದರಿ: llama-3.1-8b-instant via Groq",
         "footer": "ರಕ್ಷ AI ಬಳಸಿ ಸಂಭವನೀಯ ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತದೆ. ಯಾವಾಗಲೂ ಅಧಿಕೃತ ಮೂಲಗಳೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ.",
         "paste_any": "ನಿಮಗೆ ಅನುಮಾನವಿರುವ ಯಾವುದೇ SMS, WhatsApp, ಅಥವಾ ಇಮೇಲ್ ಅನ್ನು ಅಂಟಿಸಿ.",
         "question": "ಪ್ರಶ್ನೆ", "score": "ನಿಮ್ಮ ಸ್ಕೋರ್", "submit_answer": "ಉತ್ತರವನ್ನು ಸಲ್ಲಿಸಿ", "try_example": "ಉದಾಹರಣೆಯನ್ನು ಪ್ರಯತ್ನಿಸಿ:",
@@ -889,7 +889,7 @@ def lookup_telecom_info(phone_number: str):
 
 # ==================== TRUECALLER-STYLE CHECK ====================
 def truecaller_style_check(phone_number: str):
-    """Simulated Truecaller-style spam check for Indian numbers.
+    """Enhanced Truecaller-style spam check for Indian numbers.
     NOTE: Truecaller does not have a public API. This is a heuristic simulation.
     For real Truecaller data, you need their Business API partnership.
     """
@@ -899,40 +899,68 @@ def truecaller_style_check(phone_number: str):
     if len(clean) != 10:
         return None
 
-    # Heuristic spam scoring based on number patterns
     spam_score = 0
     report_count = 0
     category = "Unknown"
     name = "Unknown"
+    location = "Unknown"
+    carrier_detail = "Unknown"
 
-    # Known spam prefixes/patterns (simulated)
-    high_risk_prefixes = ["140", "141", "142", "143", "1800"]
-    medium_risk_prefixes = ["600", "601", "602", "700", "701", "702"]
-
+    first_digit = clean[0]
     prefix3 = clean[:3]
     prefix4 = clean[:4]
 
+    # Granular carrier detection (heuristic)
+    if prefix4 in ["6300","6301","6302","6303","6304","6390","6391","6392"]:
+        carrier_detail = "Reliance Jio"
+    elif prefix4 in ["6305","6310","6315","6320","6325","6370","6375"]:
+        carrier_detail = "Airtel"
+    elif prefix4 in ["6330","6335","6340","6345","6360","6365"]:
+        carrier_detail = "Vi (Vodafone Idea)"
+    elif prefix4 in ["6350","6355","6380","6385"]:
+        carrier_detail = "BSNL"
+    else:
+        carrier_map = {
+            "6": "Reliance Jio / Vi / Airtel",
+            "7": "Airtel / Vi / BSNL",
+            "8": "Airtel / Reliance Jio / Vi",
+            "9": "Airtel / Reliance Jio / Vi / BSNL"
+        }
+        carrier_detail = carrier_map.get(first_digit, "Unknown")
+
+    # Location from telecom lookup
+    telecom_info = lookup_telecom_info(clean)
+    if telecom_info:
+        location = f"{telecom_info['city']}, {telecom_info['region']}"
+
+    # Heuristic risk patterns
+    high_risk_prefixes = ["140", "141", "142", "143", "1800", "1860"]
+    medium_risk_prefixes = ["600", "601", "602", "700", "701", "702", "703", "704", "705", "706", "707", "708", "709"]
+    has_repeated = bool(re.search(r'(\d)\1{4,}', clean))
+
     if prefix3 in high_risk_prefixes or prefix4 in high_risk_prefixes:
-        spam_score = min(95, 70 + hash(clean) % 25)
-        report_count = 50 + (hash(clean) % 200)
+        spam_score = min(95, 75 + (abs(hash(clean)) % 20))
+        report_count = 200 + (abs(hash(clean)) % 800)
         category = "Telemarketing / Spam"
-        name = "Spam Caller"
-    elif prefix3 in medium_risk_prefixes or prefix4 in medium_risk_prefixes:
-        spam_score = min(70, 40 + hash(clean) % 30)
-        report_count = 10 + (hash(clean) % 40)
+        names = ["Telemarketing", "Spam Caller", "Service", "Fraud Alert", "Unknown"]
+        name = names[abs(hash(clean)) % len(names)]
+        location = location if location != "Unknown" else "Pan India"
+    elif prefix3 in medium_risk_prefixes or has_repeated:
+        spam_score = min(75, 45 + (abs(hash(clean)) % 25))
+        report_count = 20 + (abs(hash(clean)) % 80)
         category = "Suspicious"
         name = "Unknown"
     else:
-        # Lower score for normal mobile numbers
-        spam_score = hash(clean) % 30
-        report_count = hash(clean) % 5
+        base_hash = abs(hash(clean))
+        spam_score = base_hash % 25
+        report_count = base_hash % 5
         category = "Safe"
         name = "Unknown"
 
-    # Adjust based on digit patterns
-    if clean[-4:] == "0000" or clean[-4:] == "1111":
-        spam_score += 10
-        report_count += 5
+    if has_repeated and category == "Safe":
+        spam_score += 15
+        report_count += 10
+        category = "Suspicious"
 
     spam_score = min(100, max(0, spam_score))
 
@@ -941,6 +969,9 @@ def truecaller_style_check(phone_number: str):
         "report_count": report_count,
         "category": category,
         "name": name,
+        "location": location,
+        "carrier_detail": carrier_detail,
+        "number_type": "Mobile",
         "is_safe": spam_score < 30,
         "is_warning": 30 <= spam_score < 70,
         "is_spam": spam_score >= 70
@@ -1137,15 +1168,6 @@ def show_auth_page(ui):
                         else:
                             st.error(msg)
 
-            # Google OAuth (Streamlit Cloud native)
-            try:
-                if hasattr(st, "login"):
-                    st.markdown(f'<div class="auth-divider"><span>{ui["or"]}</span></div>', unsafe_allow_html=True)
-                    if st.button(f"🔐 {ui['continue_with_google']}", use_container_width=True):
-                        st.login("google")
-            except:
-                pass
-
             st.markdown(f"<p style='text-align: center; margin-top: 1rem;'>", unsafe_allow_html=True)
             if st.button(ui["dont_have_account"], type="tertiary"):
                 st.session_state.auth_page = "register"
@@ -1234,33 +1256,8 @@ def show_history_tab(user_id: int, ui: dict):
                     st.rerun()
 
 # ==================== MAIN APP ====================
-# Check auth
+# If not logged in, show auth page
 if st.session_state.user is None:
-    # Try Google OAuth (Streamlit Cloud)
-    try:
-        if hasattr(st, "experimental_user") and st.experimental_user.is_logged_in:
-            email = st.experimental_user.email
-            name = st.experimental_user.name or email.split("@")[0]
-            # Check if user exists, else create
-            conn = sqlite3.connect(DB_PATH)
-            c = conn.cursor()
-            c.execute("SELECT id FROM users WHERE email = ?", (email,))
-            row = c.fetchone()
-            if row:
-                user_id = row[0]
-            else:
-                c.execute("INSERT INTO users (username, email, password_hash, auth_method) VALUES (?, ?, '', 'google')",
-                          (name, email))
-                user_id = c.lastrowid
-            conn.commit()
-            conn.close()
-            st.session_state.user = {"id": user_id, "username": name, "email": email}
-    except:
-        pass
-
-# If still not logged in, show auth page
-if st.session_state.user is None:
-    # Use English UI for auth page
     show_auth_page(UI_TRANSLATIONS["en"])
     st.stop()
 
@@ -1340,17 +1337,21 @@ with tab1:
     st.header(T["message_checker"])
     st.markdown(f"<p style='color: #64748b;'>{UI['paste_any']}</p>", unsafe_allow_html=True)
 
+    # Initialize text area session state for examples
+    if "msg_text_area" not in st.session_state:
+        st.session_state.msg_text_area = ""
+
     st.markdown(f"**{UI['try_example']}**")
     examples = EXAMPLE_MESSAGES.get(lang_code, EXAMPLE_MESSAGES["en"])
     cols = st.columns(3)
     for i, ex in enumerate(examples):
         with cols[i]:
             if st.button(f"{['🎰', '🏦', '📦'][i]} {UI[['fake_lottery', 'fake_bank', 'fake_delivery'][i]]}", key=f"ex_{i}"):
-                st.session_state["msg_input"] = ex
+                st.session_state.msg_text_area = ex
+                st.rerun()
 
     msg_input = st.text_area(
         T["paste_message"],
-        value=st.session_state.get("msg_input", ""),
         height=150,
         key="msg_text_area"
     )
@@ -1416,8 +1417,52 @@ with tab3:
                 if not (len(clean_phone) == 10 or (clean_phone.startswith("+91") and len(clean_phone) == 13) or (clean_phone.startswith("91") and len(clean_phone) == 12)):
                     st.error(UI["invalid_phone"])
                 else:
-                    # Telecom lookup
+                    # Enhanced Truecaller-style Caller ID + Telecom lookup
+                    tc_result = truecaller_style_check(clean_phone)
                     telecom = lookup_telecom_info(clean_phone)
+
+                    if tc_result:
+                        tc_class = "truecaller-safe" if tc_result["is_safe"] else ("truecaller-spam" if tc_result["is_spam"] else "truecaller-warning")
+                        tc_label = UI.get("truecaller_safe", "Safe") if tc_result["is_safe"] else (UI.get("truecaller_spam", "Spam") if tc_result["is_spam"] else UI.get("truecaller_warning", "Warning"))
+                        tc_emoji = "✅" if tc_result["is_safe"] else ("🚫" if tc_result["is_spam"] else "⚠️")
+
+                        st.subheader("📱 Truecaller Identity Check")
+                        st.caption(UI.get("truecaller_note", ""))
+
+                        st.markdown(f"""
+                            <div class="{tc_class}" style="padding: 1.5rem; border-radius: 20px; margin-bottom: 1rem;">
+                                <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                                    <div style="width: 64px; height: 64px; border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                                        {tc_emoji}
+                                    </div>
+                                    <div style="flex: 1; min-width: 150px;">
+                                        <div style="font-size: 1.5rem; font-weight: 800;">{tc_result['name']}</div>
+                                        <div style="font-size: 1.1rem; font-weight: 600; opacity: 0.9;">{clean_phone[:4]}****{clean_phone[-2:]}</div>
+                                        <div style="margin-top: 0.4rem; display: inline-block; padding: 0.3rem 1rem; border-radius: 12px; background: rgba(255,255,255,0.5); font-weight: 700; font-size: 0.9rem;">
+                                            {tc_label} • {tc_result['spam_score']}/100
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 1.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.8rem; text-align: center;">
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">📍 Location</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['location']}</div>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">📡 Carrier / SIM</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['carrier_detail']}</div>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">🚩 Reports</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['report_count']}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        """, unsafe_allow_html=True)
+                    else:
+                        st.info(UI.get("lookup_unavailable", "Lookup unavailable"))
+
+                    # Telecom Intelligence details
                     if telecom:
                         with st.expander(UI["telecom_intelligence"]):
                             col1, col2 = st.columns(2)
@@ -1434,36 +1479,6 @@ with tab3:
                         st.caption(UI["telecom_not_verdict"])
                     else:
                         st.info(UI["lookup_unavailable"])
-
-                    # Truecaller-style check
-                    tc_result = truecaller_style_check(clean_phone)
-                    if tc_result:
-                        st.divider()
-                        st.subheader(f"📱 Truecaller-Style Check")
-                        st.caption(UI["truecaller_note"])
-
-                        tc_class = "truecaller-safe" if tc_result["is_safe"] else ("truecaller-spam" if tc_result["is_spam"] else "truecaller-warning")
-                        tc_label = UI["truecaller_safe"] if tc_result["is_safe"] else (UI["truecaller_spam"] if tc_result["is_spam"] else UI["truecaller_warning"])
-                        tc_emoji = "✅" if tc_result["is_safe"] else ("🚫" if tc_result["is_spam"] else "⚠️")
-
-                        st.markdown(f"""
-                            <div class="{tc_class}">
-                                <div style="font-size: 2rem;">{tc_emoji}</div>
-                                <div style="font-size: 1.3rem;">{tc_label}</div>
-                                <div style="font-size: 0.9rem; margin-top: 0.3rem; opacity: 0.9;">
-                                    {UI['truecaller_spam_score']}: {tc_result['spam_score']}/100 | 
-                                    {UI['truecaller_reports']}: {tc_result['report_count']}
-                                </div>
-                            </div>
-                        """, unsafe_allow_html=True)
-
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.metric("Category", tc_result["category"])
-                        with col2:
-                            st.metric("Name", tc_result["name"])
-                        with col3:
-                            st.metric("Risk Level", "High" if tc_result["is_spam"] else ("Medium" if tc_result["is_warning"] else "Low"))
 
                     # AI Analysis
                     result = analyze_call_ai(clean_phone, call_desc, call_count, lang_code)
