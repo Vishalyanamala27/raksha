@@ -294,6 +294,7 @@ TRANSLATIONS = {
         "welcome_back": "Welcome back",
         "login_to_continue": "Please login to continue",
         "or": "or",
+        "continue_with_google": "Continue with Google",
         "already_have_account": "Already have an account?",
         "dont_have_account": "Don't have an account?",
         "history_tab": "History",
@@ -368,6 +369,7 @@ TRANSLATIONS = {
         "welcome_back": "తిరిగి స్వాగతం",
         "login_to_continue": "కొనసాగించడానికి దయచేసి లాగిన్ అవ్వండి",
         "or": "లేదా",
+        "continue_with_google": "Google తో కొనసాగించండి",
         "already_have_account": "ఖాతా ఉందా?",
         "dont_have_account": "ఖాతా లేదా?",
         "history_tab": "చరిత్ర",
@@ -442,6 +444,7 @@ TRANSLATIONS = {
         "welcome_back": "மீண்டும் வரவேற்கிறோம்",
         "login_to_continue": "தொடர உள்நுழையவும்",
         "or": "அல்லது",
+        "continue_with_google": "Google மூலம் தொடரவும்",
         "already_have_account": "கணக்கு உள்ளதா?",
         "dont_have_account": "கணக்கு இல்லையா?",
         "history_tab": "வரலாறு",
@@ -516,6 +519,7 @@ TRANSLATIONS = {
         "welcome_back": "वापसी पर स्वागत",
         "login_to_continue": "जारी रखने के लिए लॉग इन करें",
         "or": "या",
+        "continue_with_google": "Google से जारी रखें",
         "already_have_account": "पहले से खाता है?",
         "dont_have_account": "खाता नहीं है?",
         "history_tab": "इतिहास",
@@ -590,6 +594,7 @@ TRANSLATIONS = {
         "welcome_back": "ಮರಳಿ ಸ್ವಾಗತ",
         "login_to_continue": "ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ",
         "or": "ಅಥವಾ",
+        "continue_with_google": "Google ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ",
         "already_have_account": "ಖಾತೆ ಇದೆಯೇ?",
         "dont_have_account": "ಖಾತೆ ಇಲ್ಲವೇ?",
         "history_tab": "ಇತಿಹಾಸ",
@@ -694,6 +699,7 @@ UI_TRANSLATIONS = {
         "welcome_back": "Welcome back",
         "login_to_continue": "Please login to continue",
         "or": "or",
+        "continue_with_google": "Continue with Google",
         "already_have_account": "Already have an account?",
         "dont_have_account": "Don't have an account?",
         "history_tab": "History",
@@ -720,11 +726,11 @@ UI_TRANSLATIONS = {
         "no_history": "ఇంకా చరిత్ర లేదు. సందేశాలు, URLలు, లేదా కాల్‌లను పరిశీలించడం ప్రారంభించండి!",
         "clear_history": "చరిత్రను క్లియర్ చేయండి", "truecaller_spam_score": "స్పామ్ స్కోర్", "truecaller_reports": "రిపోర్ట్‌లు",
         "truecaller_safe": "సురక్షితం", "truecaller_warning": "హెచ్చరిక", "truecaller_spam": "స్కామ్",
-        "welcome_back": "తిరిగి స్వాగతం", "login_to_continue": "కొనసాగించడానికి దయచేసి లాగిన్ అవ్వండి", "or": "లేదా", "already_have_account": "ఖాతా ఉందా?", "dont_have_account": "ఖాతా లేదా?",
+        "welcome_back": "తిరిగి స్వాగతం", "login_to_continue": "కొనసాగించడానికి దయచేసి లాగిన్ అవ్వండి", "or": "లేదా",
+        "continue_with_google": "Google తో కొనసాగించండి", "already_have_account": "ఖాతా ఉందా?", "dont_have_account": "ఖాతా లేదా?",
         "history_tab": "చరిత్ర", "date": "తేదీ", "type": "రకం", "content": "విషయం", "result": "ఫలితం", "delete": "తొలగించు", "view": "చూడండి",
         "truecaller_note": "Truecaller-స్టైల్ తనిఖీ (సిమ్యులేటెడ్). అసలు Truecaller API కోసం బిజినెస్ పార్టనర్‌షిప్ అవసరం.",
         "logged_in_as": "లాగిన్ అయ్యారు", "my_history": "నా చరిత్ర", "total_checks": "మొత్తం తనిఖీలు",
-        "more_examples": "📚 మరిన్ని స్కామ్ ఉదాహరణలు", "sim_owner": "SIM యజమాని", "sim_type": "SIM రకం", "call_location": "కాల్ మూలం", "spam_history": "స్పామ్ చరిత్ర",
     },
     "ta": {
         "language_label": "மொழி", "mission": "எங்கள் நோக்கம்", "mission_text": "ஆயிரக்கணக்கான இந்திய குடும்பங்கள் தினமும் ஆன்லைன் மோசடிகளில் பணத்தை இழக்கின்றனர். ரக்ஷா உங்கள் குடும்பத்தை அவர்களின் சொந்த மொழியில் பாதுகாக்கிறது, ஆய்வு செய்கிறது மற்றும் கற்றுக்கொடுக்கிறது.", "stats": "புள்ளிவிவரங்கள்", "why_raksha": "ரக்ஷா ஏன் வெல்லும்", "why_1": "☑️ உண்மையான பிரச்சனை, உண்மையான நோக்கம்", "why_2": "☑️ 4 செயல்படும் பாதுகாப்பு கருவிகள்", "why_3": "☑️ 5 இந்திய மொழிகளுக்கு ஆதரவு", "why_4": "☑️ 3D கண்ணாடி UI மற்றும் லைவ் டெப்த் எஃபெக்ட்ஸ்", "made_for": "டிஜிட்டல் பாதுகாப்புக்காக 💚 உருவாக்கப்பட்டது", "hero_title": "ரக்ஷா — குடும்ப டிஜிட்டல் பாதுகாப்பு காவலர்", "hero_subtitle": "ஆன்லைன் மோசடிகளில் இருந்து குடும்பங்களை பாதுகாக்கிறது — மோசடி செய்திகளை ஆய்வு செய்கிறது, சந்தேகமான இணைப்புகளை சரிபார்க்கிறது, அழைப்புகளை பகுப்பாய்வு செய்கிறது மற்றும் மோசடிகளை அடையாளம் காண கற்றுக்கொடுக்கிறது.", "fake_lottery": "🎰 போலி லாட்டரி", "fake_bank": "🏦 போலி வங்கி எச்சரிக்கை", "fake_delivery": "📦 போலி டெலிவரி", "suspicious_message": "சந்தேகமான செய்தி:", "url_description": "ஃபிஷிங் மற்றும் தீங்கிழைக்கும் இணைப்புகளுக்கான சந்தேகமான URL ஐ சரிபார்க்கவும்.", "call_description_label": "🗣️ அழைப்பாளர் என்ன சொன்னார் அல்லது என்ன கேட்டார்?", "call_description_placeholder": "உதாரணம்: அழைப்பாளர் வங்கியிலிருந்து வந்ததாகக் கூறி கணக்கைத் திறக்க OTP கேட்டார்.", "call_checker_description": "அழைப்பாளரை நம்புவதற்கு முன் தொலைத்தொடர்பு தகவல், பதிவு செய்யப்பட்ட பகுதி, அழைப்பு நடத்தை மற்றும் மோசடி அறிகுறிகளை சரிபார்க்கவும்.", "location_notice": "📍 இங்கு காட்டப்படும் பகுதி, கிடைக்கும் போது, தொலைபேசி எண்ணின் பதிவு செய்யப்பட்ட தொலைத்தொடர்பு பகுதி மட்டுமே — இது அழைப்பாளரின் நேரடி GPS இருப்பிடம் அல்ல.", "privacy_notice": "🔐 தனியுரிமை: முழு தொலைபேசி எண் தொலைத்தொடர்பு சரிபார்ப்புக்கு மட்டுமே பயன்படுத்தப்படுகிறது. AI க்கு மறைக்கப்பட்ட எண் மற்றும் அழைப்பு விவரங்கள் மட்டுமே அனுப்பப்படும்.", "checking_call": "🔍 எண், கேரியர், பதிவு செய்யப்பட்ட பகுதி மற்றும் மோசடி அறிகுறிகளை சரிபார்க்கிறது...", "invalid_phone": "❌ தவறான தொலைபேசி எண். இந்திய எண்ணுக்கு 10 இலக்கங்கள் அல்லது +91 உடன் எண்ணை உள்ளிடவும்.", "telecom_intelligence": "📡 தொலைத்தொடர்பு & SIM/நெட்வொர்க் தகவல்", "number_valid": "எண் சரியானதா", "yes": "ஆம்", "no": "இல்லை", "unknown": "தெரியவில்லை", "carrier": "கேரியர் / நெட்வொர்க்", "line_type": "லைன் வகை", "line_status": "லைன் நிலை", "country": "🌍 நாடு", "region": "📍 பகுதி", "registered_city": "🏙️ பதிவு செய்யப்பட்ட நகரம்", "timezone": "🕐 நேர மண்டலம்", "lookup_unavailable": "⚠️ தொலைத்தொடர்பு சரிபார்ப்பு கிடைக்கவில்லை. அழைப்பு நடத்தை மற்றும் AI அறிகுறிகளைக் கொண்டு இன்னும் பகுப்பாய்வு செய்யலாம்.", "lookup_detail": "சரிபார்ப்பு விவரம்", "risk_evidence": "📊 ஆபத்து ஆதாரங்கள்", "behavior_risk": "நடத்தை ஆபத்து", "calls_received": "பெறப்பட்ட அழைப்புகள்", "overall_risk": "மொத்த ஆபத்து", "telecom_assessment": "📡 தொலைத்தொடர்பு மதிப்பீடு", "telecom_not_verdict": "தொலைத்தொடர்பு தரவு ஆதாரம் மட்டுமே; அதனால் அழைப்பாளர் மோசடி செய்பவர் என்று உறுதியாக கூற முடியாது.", "quiz_description": "உங்கள் அறிவை சோதித்து, மோசடிகள் நடக்கும் முன் அவற்றை அடையாளம் காண கற்றுக்கொள்ளுங்கள்.", "correct": "✅ சரியான பதில்!", "incorrect": "❌ தவறான பதில்!", "select_answer": "முதலில் ஒரு பதிலைத் தேர்ந்தெடுக்கவும்.", "perfect_score": "🎉 சரியான மதிப்பெண்! நீங்கள் மோசடி கண்டறிதல் நிபுணர்!", "report_scam_title": "மோசடியைப் புகாரளிக்கவும்", "raw_response": "டீபக் - மூல பதில்", "groq_error": "Groq API பிழை", "parse_error": "பதிலை படிக்க முடியவில்லை. மீண்டும் முயற்சிக்கவும்.", "enter_message": "பகுப்பாய்வு செய்ய ஒரு செய்தியை உள்ளிடவும்.", "enter_url": "பகுப்பாய்வு செய்ய URL ஐ உள்ளிடவும்.", "enter_phone": "பகுப்பாய்வு செய்ய தொலைபேசி எண்ணை உள்ளிடவும்.", "safe_label": "பாதுகாப்பானது", "suspicious_label": "சந்தேகமானது", "scam_label": "மோசடி", "english": "ஆங்கிலம்", "report": "மோசடியைப் புகாரளிக்கவும்", "messages_checked": "செய்திகள் சரிபார்க்கப்பட்டன", "scams_caught": "மோசடிகள் பிடிக்கப்பட்டன", "footer_model": "டிஜிட்டல் பாதுகாப்புக்காக 💚 உருவாக்கப்பட்டது | மாடல்: llama-3.1-8b-instant via Groq",
@@ -735,11 +741,11 @@ UI_TRANSLATIONS = {
         "no_history": "இன்னும் வரலாறு இல்லை. செய்திகள், URLகள், அல்லது அழைப்புகளை சரிபார்க்கத் தொடங்குங்கள்!",
         "clear_history": "வரலாற்றை அழி", "truecaller_spam_score": "ஸ்பாம் மதிப்பெண்", "truecaller_reports": "அறிக்கைகள்",
         "truecaller_safe": "பாதுகாப்பானது", "truecaller_warning": "எச்சரிக்கை", "truecaller_spam": "ஸ்பாம்",
-        "welcome_back": "மீண்டும் வரவேற்கிறோம்", "login_to_continue": "தொடர உள்நுழையவும்", "or": "அல்லது", "already_have_account": "கணக்கு உள்ளதா?", "dont_have_account": "கணக்கு இல்லையா?",
+        "welcome_back": "மீண்டும் வரவேற்கிறோம்", "login_to_continue": "தொடர உள்நுழையவும்", "or": "அல்லது",
+        "continue_with_google": "Google மூலம் தொடரவும்", "already_have_account": "கணக்கு உள்ளதா?", "dont_have_account": "கணக்கு இல்லையா?",
         "history_tab": "வரலாறு", "date": "தேதி", "type": "வகை", "content": "உள்ளடக்கம்", "result": "முடிவு", "delete": "நீக்கு", "view": "காண்க",
         "truecaller_note": "Truecaller-பாணி சரிபார்ப்பு (சிமுலேட்டட்). உண்மையான Truecaller API க்கு வணிக கூட்டாண்மை தேவை.",
         "logged_in_as": "உள்நுழைந்துள்ளீர்கள்", "my_history": "எனது வரலாறு", "total_checks": "மொத்த சரிபார்ப்புகள்",
-        "more_examples": "📚 மேலும் மோசடி எடுத்துக்காட்டுகள்", "sim_owner": "SIM உரிமையாளர்", "sim_type": "SIM வகை", "call_location": "அழைப்பு மூலம்", "spam_history": "ஸ்பாம் வரலாறு",
     },
     "hi": {
         "language_label": "भाषा", "mission": "हमारा मिशन", "mission_text": "हर दिन हजारों भारतीय परिवार ऑनलाइन घोटालों में पैसा खोते हैं। रक्षा आपके परिवार को उनकी अपनी भाषा में सुरक्षित रखता है, जांचता है और सिखाता है।", "stats": "आंकड़े", "why_raksha": "रक्षा क्यों जीतेगा", "why_1": "☑️ असली समस्या, असली मिशन", "why_2": "☑️ 4 काम करने वाले सुरक्षा उपकरण", "why_3": "☑️ 5 भारतीय भाषाओं का समर्थन", "why_4": "☑️ 3D ग्लास UI और लाइव डेप्थ इफेक्ट्स", "made_for": "डिजिटल सुरक्षा के लिए 💚 बनाया गया", "hero_title": "रक्षा — परिवार डिजिटल सुरक्षा संरक्षक", "hero_subtitle": "परिवारों को ऑनलाइन धोखाधड़ी से बचाता है — घोटाले के संदेशों की जांच करता है, संदिग्ध लिंक देखता है, कॉल का विश्लेषण करता है और लोगों को धोखाधड़ी पहचानना सिखाता है।", "fake_lottery": "🎰 नकली लॉटरी", "fake_bank": "🏦 नकली बैंक अलर्ट", "fake_delivery": "📦 नकली डिलीवरी", "suspicious_message": "संदिग्ध संदेश:", "url_description": "फिशिंग और दुर्भावनापूर्ण लिंक के लिए संदिग्ध URL की जांच करें।", "call_description_label": "🗣️ कॉल करने वाले ने क्या कहा या क्या मांगा?", "call_description_placeholder": "उदाहरण: कॉल करने वाले ने बैंक से होने का दावा किया और खाता खोलने के लिए OTP मांगा।", "call_checker_description": "कॉलर पर भरोसा करने से पहले टेलीकॉम जानकारी, पंजीकृत क्षेत्र, कॉल व्यवहार और घोटाले के संकेत जांचें।", "location_notice": "📍 यहां दिखाया गया स्थान, उपलब्ध होने पर, फोन नंबर का पंजीकृत टेलीकॉम क्षेत्र है — यह कॉलर का लाइव GPS स्थान नहीं है।", "privacy_notice": "🔐 गोपनीयता: पूरा फोन नंबर केवल टेलीकॉम लुकअप के लिए उपयोग होता है। AI को केवल छिपा हुआ नंबर और कॉल विवरण भेजे जाते हैं।", "checking_call": "🔍 नंबर, कैरियर, पंजीकृत स्थान और घोटाले के संकेत जांचे जा रहे हैं...", "invalid_phone": "❌ अमान्य फोन नंबर। भारतीय नंबर के लिए 10 अंक या +91 के साथ नंबर दर्ज करें।", "telecom_intelligence": "📡 टेलीकॉम और SIM/नेटवर्क जानकारी", "number_valid": "नंबर मान्य", "yes": "हाँ", "no": "नहीं", "unknown": "अज्ञात", "carrier": "कैरियर / नेटवर्क", "line_type": "लाइन प्रकार", "line_status": "लाइन स्थिति", "country": "🌍 देश", "region": "📍 क्षेत्र", "registered_city": "🏙️ पंजीकृत शहर", "timezone": "🕐 समय क्षेत्र", "lookup_unavailable": "⚠️ टेलीकॉम लुकअप उपलब्ध नहीं है। कॉल व्यवहार और AI संकेतों से कॉल का विश्लेषण फिर भी किया जा सकता है।", "lookup_detail": "लुकअप विवरण", "risk_evidence": "📊 जोखिम के प्रमाण", "behavior_risk": "व्यवहार जोखिम", "calls_received": "प्राप्त कॉल", "overall_risk": "कुल जोखिम", "telecom_assessment": "📡 टेलीकॉम आकलन", "telecom_not_verdict": "टेलीकॉम डेटा केवल सहायक प्रमाण है; इससे यह साबित नहीं होता कि कॉलर ठग है।", "quiz_description": "अपना ज्ञान जांचें और घोटाले होने से पहले उन्हें पहचानना सीखें।", "correct": "✅ सही!", "incorrect": "❌ गलत!", "select_answer": "कृपया पहले एक उत्तर चुनें।", "perfect_score": "🎉 शानदार स्कोर! आप घोटाला पहचानने के विशेषज्ञ हैं!", "report_scam_title": "घोटाले की रिपोर्ट करें", "raw_response": "डीबग - कच्ची प्रतिक्रिया", "groq_error": "Groq API त्रुटि", "parse_error": "प्रतिक्रिया पढ़ी नहीं जा सकी। कृपया फिर प्रयास करें।", "enter_message": "विश्लेषण के लिए संदेश दर्ज करें।", "enter_url": "विश्लेषण के लिए URL दर्ज करें।", "enter_phone": "विश्लेषण के लिए फोन नंबर दर्ज करें।", "safe_label": "सुरक्षित", "suspicious_label": "संदिग्ध", "scam_label": "घोटाला", "english": "अंग्रेज़ी", "report": "घोटाले की रिपोर्ट करें", "messages_checked": "संदेश जांचे गए", "scams_caught": "घोटाले पकड़े गए", "footer_model": "डिजिटल सुरक्षा के लिए 💚 बनाया गया | मॉडल: llama-3.1-8b-instant via Groq",
@@ -750,14 +756,14 @@ UI_TRANSLATIONS = {
         "no_history": "अभी तक कोई इतिहास नहीं। संदेश, URL, या कॉल जांचना शुरू करें!",
         "clear_history": "इतिहास साफ़ करें", "truecaller_spam_score": "स्पैम स्कोर", "truecaller_reports": "रिपोर्ट्स",
         "truecaller_safe": "सुरक्षित", "truecaller_warning": "चेतावनी", "truecaller_spam": "स्पैम",
-        "welcome_back": "वापसी पर स्वागत", "login_to_continue": "जारी रखने के लिए लॉग इन करें", "or": "या", "already_have_account": "पहले से खाता है?", "dont_have_account": "खाता नहीं है?",
+        "welcome_back": "वापसी पर स्वागत", "login_to_continue": "जारी रखने के लिए लॉग इन करें", "or": "या",
+        "continue_with_google": "Google से जारी रखें", "already_have_account": "पहले से खाता है?", "dont_have_account": "खाता नहीं है?",
         "history_tab": "इतिहास", "date": "दिनांक", "type": "प्रकार", "content": "सामग्री", "result": "परिणाम", "delete": "हटाएं", "view": "देखें",
         "truecaller_note": "Truecaller-स्टाइल जांच (सिमुलेटेड)। असली Truecaller API के लिए बिजनेस पार्टनरशिप चाहिए।",
         "logged_in_as": "लॉग इन किया हुआ है", "my_history": "मेरा इतिहास", "total_checks": "कुल जांच",
-        "more_examples": "📚 और घोटाले उदाहरण", "sim_owner": "SIM मालिक", "sim_type": "SIM प्रकार", "call_location": "कॉल का स्थान", "spam_history": "स्पैम इतिहास",
     },
     "kn": {
-        "language_label": "ಭಾಷೆ", "mission": "ನಮ್ಮ ಗುರಿ", "mission_text": "ಪ್ರತಿ ದಿನ ಸಾವಿರಾರು ಭಾರತೀಯ ಕುಟುಂಬಗಳು ಆನ್‌ಲೈನ್ ಮೋಸಗಳಿಂದ ಹಣ ಕಳೆದುಕೊಳ್ಳುತ್ತವೆ. ರಕ್ಷ ನಿಮ್ಮ ಕುಟುಂಬವನ್ನು ಅವರದೇ ಭಾಷೆಯಲ್ಲಿ ರಕ್ಷಿಸುತ್ತದೆ, ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಕಲಿಸುತ್ತದೆ.", "stats": "ಅಂಕಿಅಂಶಗಳು", "why_raksha": "ರಕ್ಷ ಏಕೆ ಗೆಲ್ಲುತ್ತದೆ", "why_1": "☑️ ನಿಜವಾದ ಸಮಸ್ಯೆ, ನಿಜವಾದ ಗುರಿ", "why_2": "☑️ 4 ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಸುರಕ್ಷತಾ ಸಾಧನಗಳು", "why_3": "☑️ 5 ಭಾರತೀಯ ಭಾಷೆಗಳಿಗೆ ಬೆಂಬಲ", "why_4": "☑️ 3D ಗ್ಲಾಸ್ UI ಮತ್ತು ಲೈವ್ ಡೆಪ್ತ್ ಎಫೆಕ್ಟ್ಸ್", "made_for": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ", "hero_title": "ರಕ್ಷ — ಕುಟುಂಬ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತಾ ರಕ್ಷಕ", "hero_subtitle": "ಕುಟುಂಬಗಳನ್ನು ಆನ್‌ಲೈನ್ ವಂಚನೆಯಿಂದ ರಕ್ಷಿಸುತ್ತದೆ — ಮೋಸ ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಅನುಮಾನಾಸ್ಪದ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಕರೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಮೋಸವನ್ನು ಗುರುತಿಸಲು ಕಲಿಸುತ್ತದೆ.", "fake_lottery": "🎰 ನಕಲಿ ಲಾಟರಿ", "fake_bank": "🏦 ನಕಲಿ ಬ್ಯಾಂಕ್ ಎಚ್ಚರಿಕೆ", "fake_delivery": "📦 ನಕಲಿ ಡೆಲಿವರಿ", "suspicious_message": "ಅನುಮಾನಾಸ್ಪದ ಸಂದೇಶ:", "url_description": "ಫಿಶಿಂಗ್ ಮತ್ತು ಹಾನಿಕಾರಕ ಲಿಂಕ್‌ಗಳಿಗಾಗಿ ಅನುಮಾನಾಸ್ಪದ URL ಅನ್ನು ಪರಿಶೀಲಿಸಿ.", "call_description_label": "🗣️ ಕರೆ ಮಾಡಿದವರು ಏನು ಹೇಳಿದರು ಅಥವಾ ಏನು ಕೇಳಿದರು?", "call_description_placeholder": "ಉದಾಹರಣೆ: ಕರೆ ಮಾಡಿದವರು ಬ್ಯಾಂಕಿನಿಂದ ಬಂದವರು ಎಂದು ಹೇಳಿ ಖಾತೆ ತೆರೆಯಲು OTP ಕೇಳಿದರು.", "call_checker_description": "ಕರೆ ಮಾಡಿದವರನ್ನು ನಂಬುವ ಮೊದಲು ಟೆಲಿಕಾಂ ಮಾಹಿತಿ, ನೋಂದಾಯಿತ ಪ್ರದೇಶ, ಕರೆ ವರ್ತನೆ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "location_notice": "📍 ಇಲ್ಲಿ ತೋರಿಸುವ ಸ್ಥಳವು ಲಭ್ಯವಿದ್ದಾಗ ಫೋನ್ ಸಂಖೆಯ ನೋಂದಾಯಿತ ಟೆಲಿಕಾಂ ಪ್ರದೇಶವಾಗಿದೆ — ಇದು ಕರೆ ಮಾಡಿದವರ ಲೈವ್ GPS ಸ್ಥಳವಲ್ಲ.", "privacy_notice": "🔐 ಗೌಪ್ಯತೆ: ಪೂರ್ಣ ಫೋನ್ ಸಂಖೆಯನ್ನು ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್‌ಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. AIಗೆ ಮಸ್ಕ್ ಮಾಡಿದ ಸಂಖ್ಯೆ ಮತ್ತು ಕರೆ ವಿವರಗಳನ್ನು ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.", "checking_call": "🔍 ಸಂಖ್ಯೆ, ಕ್ಯಾರಿಯರ್, ನೋಂದಾಯಿತ ಸ್ಥಳ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...", "invalid_phone": "❌ ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ. ಭಾರತೀಯ ಸಂಖ್ಯೆಗೆ 10 ಅಂಕೆಗಳು ಅಥವಾ +91 ಜೊತೆಗೆ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "telecom_intelligence": "📡 ಟೆಲಿಕಾಂ & SIM/ನೆಟ್‌ವರ್ಕ್ ಮಾಹಿತಿ", "number_valid": "ಸಂಖ್ಯೆ ಮಾನ್ಯ", "yes": "ಹೌದು", "no": "ಇಲ್ಲ", "unknown": "ತಿಳಿದಿಲ್ಲ", "carrier": "ಕ್ಯಾರಿಯರ್ / ನೆಟ್‌ವರ್ಕ್", "line_type": "ಲೈನ್ ಪ್ರಕಾರ", "line_status": "ಲೈನ್ ಸ್ಥಿತಿ", "country": "🌍 ದೇಶ", "region": "📍 ಪ್ರದೇಶ", "registered_city": "🏙️ ನೋಂದಾಯಿತ ನಗರ", "timezone": "🕐 ಸಮಯ ವಲಯ", "lookup_unavailable": "⚠️ ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್ ಲಭ್ಯವಿಲ್ಲ. ಕರೆ ವರ್ತನೆ ಮತ್ತು AI ಸೂಚನೆಗಳಿಂದ ಕರೆ ವಿಶ್ಲೇಷಿಸಬಹುದು.", "lookup_detail": "ಲುಕ್‌ಅಪ್ ವಿವರ", "risk_evidence": "📊 ಅಪಾಯದ ಸಾಕ್ಷ್ಯ", "behavior_risk": "ವರ್ತನೆ ಅಪಾಯ", "calls_received": "ಸ್ವೀಕರಿಸಿದ ಕರೆಗಳು", "overall_risk": "ಒಟ್ಟು ಅಪಾಯ", "telecom_assessment": "📡 ಟೆಲಿಕಾಂ ಮೌಲ್ಯಮಾಪನ", "telecom_not_verdict": "ಟೆಲಿಕಾಂ ಡೇಟಾ ಸಹಾಯಕ ಸಾಕ್ಷ್ಯ ಮಾತ್ರ; ಇದರಿಂದ ಕರೆ ಮಾಡಿದವರು ಮೋಸಗಾರರು ಎಂದು ಸಾಬೀತಾಗುವುದಿಲ್ಲ.", "quiz_description": "ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಮೋಸಗಳು ಸಂಭವಿಸುವ ಮೊದಲು ಅವುಗಳನ್ನು ಗುರುತಿಸಲು ಕಲಿಯಿರಿ.", "correct": "✅ ಸರಿಯಾಗಿದೆ!", "incorrect": "❌ ತಪ್ಪಾಗಿದೆ!", "select_answer": "ದಯವಿಟ್ಟು ಮೊದಲು ಉತ್ತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.", "perfect_score": "🎉 ಪರಿಪೂರ್ಣ ಸ್ಕೋರ್! ನೀವು ಮೋಸ ಪತ್ತೆಹಚ್ಚುವ ತಜ್ಞರು!", "report_scam_title": "ಮೋಸವನ್ನು ವರದಿ ಮಾಡಿ", "raw_response": "ಡೀಬಗ್ - ಮೂಲ ಪ್ರತಿಸ್ಪಂದನ", "groq_error": "Groq API ದೋಷ", "parse_error": "ಪ್ರತಿಸ್ಪಂದನವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.", "enter_message": "ವಿಶ್ಲೇಷಿಸಲು ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ.", "enter_url": "ವಿಶ್ಲೇಷಿಸಲು URL ಅನ್ನು ನಮೂದಿಸಿ.", "enter_phone": "ವಿಶ್ಲೇಷಿಸಲು ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "safe_label": "ಸುರಕ್ಷಿತ", "suspicious_label": "ಅನುಮಾನಾಸ್ಪದ", "scam_label": "ಸ್ಕ್ಯಾಮ್", "english": "ಆಂಗ್ಲ", "report": "ಸ್ಕ್ಯಾಮ್ ವರದಿ ಮಾಡಿ", "messages_checked": "ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ", "scams_caught": "ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಹಿಡಿದುಕೊಂಡಿದೆ", "footer_model": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ | ಮಾದರಿ: llama-3.1-8b-instant via Groq",
+        "language_label": "ಭಾಷೆ", "mission": "ನಮ್ಮ ಗುರಿ", "mission_text": "ಪ್ರತಿ ದಿನ ಸಾವಿರಾರು ಭಾರತೀಯ ಕುಟುಂಬಗಳು ಆನ್‌ಲೈನ್ ಮೋಸಗಳಿಂದ ಹಣ ಕಳೆದುಕೊಳ್ಳುತ್ತವೆ. ರಕ್ಷ ನಿಮ್ಮ ಕುಟುಂಬವನ್ನು ಅವರದೇ ಭಾಷೆಯಲ್ಲಿ ರಕ್ಷಿಸುತ್ತದೆ, ಪರಿಶೀಲಿಸುತ್ತದೆ ಮತ್ತು ಕಲಿಸುತ್ತದೆ.", "stats": "ಅಂಕಿಅಂಶಗಳು", "why_raksha": "ರಕ್ಷ ಏಕೆ ಗೆಲ್ಲುತ್ತದೆ", "why_1": "☑️ ನಿಜವಾದ ಸಮಸ್ಯೆ, ನಿಜವಾದ ಗುರಿ", "why_2": "☑️ 4 ಕಾರ್ಯನಿರ್ವಹಿಸುವ ಸುರಕ್ಷತಾ ಸಾಧನಗಳು", "why_3": "☑️ 5 ಭಾರತೀಯ ಭಾಷೆಗಳಿಗೆ ಬೆಂಬಲ", "why_4": "☑️ 3D ಗ್ಲಾಸ್ UI ಮತ್ತು ಲೈವ್ ಡೆಪ್ತ್ ಎಫೆಕ್ಟ್ಸ್", "made_for": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ", "hero_title": "ರಕ್ಷ — ಕುಟುಂಬ ಡಿಜಿಟಲ್ ಸುರಕ್ಷತಾ ರಕ್ಷಕ", "hero_subtitle": "ಕುಟುಂಬಗಳನ್ನು ಆನ್‌ಲೈನ್ ವಂಚನೆಯಿಂದ ರಕ್ಷಿಸುತ್ತದೆ — ಮೋಸ ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಅನುಮಾನಾಸ್ಪದ ಲಿಂಕ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸುತ್ತದೆ, ಕರೆಗಳನ್ನು ವಿಶ್ಲೇಷಿಸುತ್ತದೆ ಮತ್ತು ಮೋಸವನ್ನು ಗುರುತಿಸಲು ಕಲಿಸುತ್ತದೆ.", "fake_lottery": "🎰 ನಕಲಿ ಲಾಟರಿ", "fake_bank": "🏦 ನಕಲಿ ಬ್ಯಾಂಕ್ ಎಚ್ಚರಿಕೆ", "fake_delivery": "📦 ನಕಲಿ ಡೆಲಿವರಿ", "suspicious_message": "ಅನುಮಾನಾಸ್ಪದ ಸಂದೇಶ:", "url_description": "ಫಿಶಿಂಗ್ ಮತ್ತು ಹಾನಿಕಾರಕ ಲಿಂಕ್‌ಗಳಿಗಾಗಿ ಅನುಮಾನಾಸ್ಪದ URL ಅನ್ನು ಪರಿಶೀಲಿಸಿ.", "call_description_label": "🗣️ ಕರೆ ಮಾಡಿದವರು ಏನು ಹೇಳಿದರು ಅಥವಾ ಏನು ಕೇಳಿದರು?", "call_description_placeholder": "ಉದಾಹರಣೆ: ಕರೆ ಮಾಡಿದವರು ಬ್ಯಾಂಕಿನಿಂದ ಬಂದವರು ಎಂದು ಹೇಳಿ ಖಾತೆ ತೆರೆಯಲು OTP ಕೇಳಿದರು.", "call_checker_description": "ಕರೆ ಮಾಡಿದವರನ್ನು ನಂಬುವ ಮೊದಲು ಟೆಲಿಕಾಂ ಮಾಹಿತಿ, ನೋಂದಾಯಿತ ಪ್ರದೇಶ, ಕರೆ ವರ್ತನೆ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.", "location_notice": "📍 ಇಲ್ಲಿ ತೋರಿಸುವ ಸ್ಥಳವು ಲಭ್ಯವಿದ್ದಾಗ ಫೋನ್ ಸಂಖೆಯ ನೋಂದಾಯಿತ ಟೆಲಿಕಾಂ ಪ್ರದೇಶವಾಗಿದೆ — ಇದು ಕರೆ ಮಾಡಿದವರ ಲೈವ್ GPS ಸ್ಥಳವಲ್ಲ.", "privacy_notice": "🔐 ಗೌಪ್ಯತೆ: ಪೂರ್ಣ ಫೋನ್ ಸಂಖೆಯನ್ನು ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್‌ಗಾಗಿ ಮಾತ್ರ ಬಳಸಲಾಗುತ್ತದೆ. AIಗೆ ಮಸ್ಕ್ ಮಾಡಿದ ಸಂಖ್ಯೆ ಮತ್ತು ಕರೆ ವಿವರಗಳನ್ನು ಮಾತ್ರ ಕಳುಹಿಸಲಾಗುತ್ತದೆ.", "checking_call": "🔍 ಸಂಖ್ಯೆ, ಕ್ಯಾರಿಯರ್, ನೋಂದಾಯಿತ ಸ್ಥಳ ಮತ್ತು ಮೋಸ ಸೂಚನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ...", "invalid_phone": "❌ ಅಮಾನ್ಯ ಫೋನ್ ಸಂಖ್ಯೆ. ಭಾರತೀಯ ಸಂಖ್ಯೆಗೆ 10 ಅಂಕೆಗಳು ಅಥವಾ +91 ಜೊತೆಗೆ ಸಂಖೆಯನ್ನು ನಮೂದಿಸಿ.", "telecom_intelligence": "📡 ಟೆಲಿಕಾಂ & SIM/ನೆಟ್‌ವರ್ಕ್ ಮಾಹಿತಿ", "number_valid": "ಸಂಖ್ಯೆ ಮಾನ್ಯ", "yes": "ಹೌದು", "no": "ಇಲ್ಲ", "unknown": "ತಿಳಿದಿಲ್ಲ", "carrier": "ಕ್ಯಾರಿಯರ್ / ನೆಟ್‌ವರ್ಕ್", "line_type": "ಲೈನ್ ಪ್ರಕಾರ", "line_status": "ಲೈನ್ ಸ್ಥಿತಿ", "country": "🌍 ದೇಶ", "region": "📍 ಪ್ರದೇಶ", "registered_city": "🏙️ ನೋಂದಾಯಿತ ನಗರ", "timezone": "🕐 ಸಮಯ ವಲಯ", "lookup_unavailable": "⚠️ ಟೆಲಿಕಾಂ ಲುಕ್‌ಅಪ್ ಲಭ್ಯವಿಲ್ಲ. ಕರೆ ವರ್ತನೆ ಮತ್ತು AI ಸೂಚನೆಗಳಿಂದ ಕರೆ ವಿಶ್ಲೇಷಿಸಬಹುದು.", "lookup_detail": "ಲುಕ್‌ಅಪ್ ವಿವರ", "risk_evidence": "📊 ಅಪಾಯದ ಸಾಕ್ಷ್ಯ", "behavior_risk": "ವರ್ತನೆ ಅಪಾಯ", "calls_received": "ಸ್ವೀಕರಿಸಿದ ಕರೆಗಳು", "overall_risk": "ಒಟ್ಟು ಅಪಾಯ", "telecom_assessment": "📡 ಟೆಲಿಕಾಂ ಮೌಲ್ಯಮಾಪನ", "telecom_not_verdict": "ಟೆಲಿಕಾಂ ಡೇಟಾ ಸಹಾಯಕ ಸಾಕ್ಷ್ಯ ಮಾತ್ರ; ಇದರಿಂದ ಕರೆ ಮಾಡಿದವರು ಮೋಸಗಾರರು ಎಂದು ಸಾಬೀತಾಗುವುದಿಲ್ಲ.", "quiz_description": "ನಿಮ್ಮ ಜ್ಞಾನವನ್ನು ಪರೀಕ್ಷಿಸಿ ಮತ್ತು ಮೋಸಗಳು ಸಂಭವಿಸುವ ಮೊದಲು ಅವುಗಳನ್ನು ಗುರುತಿಸಲು ಕಲಿಯಿರಿ.", "correct": "✅ ಸರಿಯಾಗಿದೆ!", "incorrect": "❌ ತಪ್ಪಾಗಿದೆ!", "select_answer": "ದಯವಿಟ್ಟು ಮೊದಲು ಉತ್ತರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.", "perfect_score": "🎉 ಪರಿಪೂರ್ಣ ಸ್ಕೋರ್! ನೀವು ಮೋಸ ಪತ್ತೆಹಚ್ಚುವ ತಜ್ಞರು!", "report_scam_title": "ಮೋಸವನ್ನು ವರದಿ ಮಾಡಿ", "raw_response": "ಡೀಬಗ್ - ಮೂಲ ಪ್ರತಿಸ್ಪಂದನ", "groq_error": "Groq API ದೋಷ", "parse_error": "ಪ್ರತಿಸ್ಪಂದನವನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.", "enter_message": "ವಿಶ್ಲೇಷಿಸಲು ಸಂದೇಶವನ್ನು ನಮೂದಿಸಿ.", "enter_url": "ವಿಶ್ಲೇಷಿಸಲು URL ಅನ್ನು ನಮೂದಿಸಿ.", "enter_phone": "ವಿಶ್ಲೇಷಿಸಲು ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ನಮೂದಿಸಿ.", "safe_label": "ಸುರಕ್ಷಿತ", "suspicious_label": "ಅನುಮಾನಾಸ್ಪದ", "scam_label": "ಸ್ಕ್ಯಾಮ್", "english": "ಆಂಗ್ಲ", "report": "ಸ್ಕ್ಯಾಮ್ ವರದಿ ಮಾಡಿ", "messages_checked": "ಸಂದೇಶಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ", "scams_caught": "ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಹಿಡಿದುಕೊಂಡಿದೆ", "footer_model": "ಡಿಜಿಟಲ್ ಸುರಕ್ಷತೆಗಾಗಿ 💚 ನಿರ್ಮಿಸಲಾಗಿದೆ | ಮಾದರಿ: llama-3.1-8b-instant via Groq",
         "footer": "ರಕ್ಷ AI ಬಳಸಿ ಸಂಭವನೀಯ ಸ್ಕ್ಯಾಮ್‌ಗಳನ್ನು ಪತ್ತೆಹಚ್ಚುತ್ತದೆ. ಯಾವಾಗಲೂ ಅಧಿಕೃತ ಮೂಲಗಳೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ.",
         "paste_any": "ನಿಮಗೆ ಅನುಮಾನವಿರುವ ಯಾವುದೇ SMS, WhatsApp, ಅಥವಾ ಇಮೇಲ್ ಅನ್ನು ಅಂಟಿಸಿ.",
         "question": "ಪ್ರಶ್ನೆ", "score": "ನಿಮ್ಮ ಸ್ಕೋರ್", "submit_answer": "ಉತ್ತರವನ್ನು ಸಲ್ಲಿಸಿ", "try_example": "ಉದಾಹರಣೆಯನ್ನು ಪ್ರಯತ್ನಿಸಿ:",
@@ -765,68 +771,40 @@ UI_TRANSLATIONS = {
         "no_history": "ಇನ್ನೂ ಇತಿಹಾಸವಿಲ್ಲ. ಸಂದೇಶಗಳು, URLಗಳು, ಅಥವಾ ಕರೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಪ್ರಾರಂಭಿಸಿ!",
         "clear_history": "ಇತಿಹಾಸವನ್ನು ತೆರವುಗೊಳಿಸಿ", "truecaller_spam_score": "ಸ್ಪ್ಯಾಮ್ ಸ್ಕೋರ್", "truecaller_reports": "ವರದಿಗಳು",
         "truecaller_safe": "ಸುರಕ್ಷಿತ", "truecaller_warning": "ಎಚ್ಚರಿಕೆ", "truecaller_spam": "ಸ್ಪ್ಯಾಮ್",
-        "welcome_back": "ಮರಳಿ ಸ್ವಾಗತ", "login_to_continue": "ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ", "or": "ಅಥವಾ", "already_have_account": "ಖಾತೆ ಇದೆಯೇ?", "dont_have_account": "ಖಾತೆ ಇಲ್ಲವೇ?",
+        "welcome_back": "ಮರಳಿ ಸ್ವಾಗತ", "login_to_continue": "ಮುಂದುವರಿಸಲು ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ", "or": "ಅಥವಾ",
+        "continue_with_google": "Google ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ", "already_have_account": "ಖಾತೆ ಇದೆಯೇ?", "dont_have_account": "ಖಾತೆ ಇಲ್ಲವೇ?",
         "history_tab": "ಇತಿಹಾಸ", "date": "ದಿನಾಂಕ", "type": "ಪ್ರಕಾರ", "content": "ವಿಷಯ", "result": "ಫಲಿತಾಂಶ", "delete": "ಅಳಿಸಿ", "view": "ನೋಡಿ",
         "truecaller_note": "Truecaller-ಶೈಲಿ ಪರಿಶೀಲನೆ (ಸಿಮ್ಯುಲೇಟೆಡ್). ನಿಜವಾದ Truecaller API ಗೆ ಬಿಸಿನೆಸ್ ಪಾರ್ಟನರ್ಶಿಪ್ ಬೇಕು.",
         "logged_in_as": "ಲಾಗಿನ್ ಆಗಿದ್ದಾರೆ", "my_history": "ನನ್ನ ಇತಿಹಾಸ", "total_checks": "ಒಟ್ಟು ತನಿಖೆಗಳು",
-        "more_examples": "📚 ಇನ್ನಷ್ಟು ಸ್ಕ್ಯಾಮ್ ಉದಾಹರಣೆಗಳು", "sim_owner": "SIM ಮಾಲೀಕ", "sim_type": "SIM ಪ್ರಕಾರ", "call_location": "ಕರೆ ಮೂಲ", "spam_history": "ಸ್ಪ್ಯಾಮ್ ಇತಿಹಾಸ",
     }
 }
 
 # ==================== EXAMPLE MESSAGES ====================
 EXAMPLE_MESSAGES = {
     "en": [
-        "🎰 CONGRATULATIONS! Your mobile number has been selected as the WINNER of Rs. 25,00,000 in the Reliance Jio 10th Anniversary Lucky Draw! To claim your prize, call our manager immediately at +91-98765-43210 and pay a processing fee of Rs. 5,000. Do not share this with anyone or your prize will be cancelled!",
-        "🏦 Dear SBI Customer, your account will be BLOCKED within 24 hours due to incomplete KYC update. Please click the link below immediately to update your PAN and Aadhaar details to avoid account freeze: http://sbi-kyc-update-now.in/login",
-        "📦 Amazon Express: Your package #AMZ78432 is on hold at Mumbai Customs due to unpaid clearance fee of Rs. 899. Pay now via the link to avoid return: http://amz-customs-clearance.in/pay?ref=78432"
+        "🎰 Congratulations! You've won Rs. 5,00,000 in the Lucky Draw! Call this number immediately to claim your prize before it expires!",
+        "🏦 Dear Customer, your bank account has been suspended due to suspicious activity. Click here to verify immediately: http://fake-bank-verify.in",
+        "📦 Your Amazon package is on hold due to unpaid customs fees. Pay Rs. 499 now to release it: http://amz-delivery.in/pay"
     ],
     "te": [
-        "🎰 అభినందనలు! మీ మొబైల్ నంబర్ రిలయన్స్ Jio 10వ వార్షికోత్సవ లక్కీ డ్రా‌లో Rs. 25,00,000 గెలిచిన విజేతగా ఎంపిక అయ్యింది! బహుమతి క్లెయిమ్ చేయడానికి వెంటనే +91-98765-43210 కు కాల్ చేసి Rs. 5,000 ప్రాసెసింగ్ ఫీజు చెల్లించండి. ఎవరితోనూ షేర్ చేయకండి!",
-        "🏦 ప్రియమైన SBI కస్టమర్, మీ KYC అప్‌డేట్ పూర్తి కాకపోవడం వల్ల మీ ఖాతా 24 గంటల్లో బ్లాక్ అవుతుంది. మీ ఖాతా ను కాపాడుకోవడానికి వెంటనే ఈ లింక్ క్లిక్ చేయండి: http://sbi-kyc-update-now.in/login",
-        "📦 Amazon Express: మీ ప్యాకేజీ #AMZ78432 ముంబై కస్టమ్స్‌లో చెల్లించని క్లియరెన్స్ ఫీజు Rs. 899 కారణంగా హోల్డ్‌లో ఉంది. తిరిగి పంపడాన్ని నివారించడానికి ఇప్పుడే చెల్లించండి: http://amz-customs-clearance.in/pay?ref=78432"
+        "🎰 అభినందనలు! మీరు లక్కీ డ్రా‌లో Rs. 5,00,000 గెలుచుకున్నారు! బహుమతి క్లెయిమ్ చేయడానికి వెంటనే ఈ నంబర్‌కు కాల్ చేయండి!",
+        "🏦 ప్రియ కస్టమర్, అనుమానాస్పద కార్యకలాపాల కారణంగా మీ బ్యాంక్ ఖాతా సస్పెండ్ చేయబడింది. వెంటనే ధృవీకరించడానికి ఇక్కడ క్లిక్ చేయండి: http://fake-bank-verify.in",
+        "📦 మీ Amazon ప్యాకేజీ చెల్లించని కస్టమ్స్ ఫీజుల కారణంగా హోల్డ్‌లో ఉంది. విడుదల చేయడానికి ఇప్పుడే Rs. 499 చెల్లించండి: http://amz-delivery.in/pay"
     ],
     "ta": [
-        "🎰 வாழ்த்துக்கள்! உங்கள் கைபேசி எண் ரிலையன்ஸ் Jio 10வது ஆண்டு லக்கி டிராவில் Rs. 25,00,000 வென்றவராகத் தேர்ந்தெடுக்கப்பட்டுள்ளது! பரிசைப் பெற +91-98765-43210 எண்ணுக்கு அழைத்து Rs. 5,000 செயலாக்கக் கட்டணம் செலுத்தவும். யாருடனும் பகிர வேண்டாம்!",
-        "🏦 அன்பு SBI வாடிக்கையாளரே, KYC புதுப்பிக்கப்படாததால் உங்கள் கணக்கு 24 மணிநேரத்தில் முடக்கப்படும். உடனடியாக சரிபார்க்க இங்கே கிளிக் செய்யவும்: http://sbi-kyc-update-now.in/login",
-        "📦 Amazon Express: உங்கள் பார்சல் #AMZ78432 மும்பை சுங்கத்தில் செலுத்தப்படாத Rs. 899 கட்டணத்தால் நிறுத்தப்பட்டுள்ளது. திரும்ப அனுப்புவதைத் தவிர்க்க இப்போது செலுத்தவும்: http://amz-customs-clearance.in/pay?ref=78432"
+        "🎰 வாழ்த்துக்கள்! லக்கி டிராவில் நீங்கள் Rs. 5,00,000 வென்றுள்ளீர்கள்! பரிசைப் பெற இந்த எண்ணுக்கு உடனடியாக அழைக்கவும்!",
+        "🏦 அன்பு வாடிக்கையாளரே, சந்தேகத்திற்கிடமான செயல்பாடுகளால் உங்கள் வங்கி கணக்கு இடைநிறுத்தப்பட்டுள்ளது. உடனடியாக சரிபார்க்க இங்கே கிளிக் செய்யவும்: http://fake-bank-verify.in",
+        "📦 உங்கள் Amazon பார்சல் செலுத்தப்படாத சுங்கக் கட்டணங்களால் நிறுத்தப்பட்டுள்ளது. விடுவிக்க இப்போது Rs. 499 செலுத்தவும்: http://amz-delivery.in/pay"
     ],
     "hi": [
-        "🎰 बधाई हो! आपका मोबाइल नंबर रिलायंस Jio 10वीं सालगिरह लकी ड्रॉ में Rs. 25,00,000 जीतने वाले के रूप में चुना गया है! पुरस्कार प्राप्त करने के लिए तुरंत +91-98765-43210 पर कॉल करें और Rs. 5,000 प्रोसेसिंग शुल्क दें। किसी से साझा न करें!",
-        "🏦 प्रिय SBI ग्राहक, अधूरे KYC अपडेट के कारण आपका खाता 24 घंटे में ब्लॉक कर दिया जाएगा। तुरंत सत्यापित करने के लिए यहां क्लिक करें: http://sbi-kyc-update-now.in/login",
-        "📦 Amazon Express: आपका पैकेज #AMZ78432 मुंबई कस्टम्स में अवैतनिक क्लियरेंस शुल्क Rs. 899 के कारण होल्ड पर है। वापसी से बचने के लिए अभी भुगतान करें: http://amz-customs-clearance.in/pay?ref=78432"
+        "🎰 बधाई हो! आप लकी ड्रॉ में Rs. 5,00,000 जीत गए हैं! पुरस्कार प्राप्त करने के लिए तुरंत इस नंबर पर कॉल करें!",
+        "🏦 प्रिय ग्राहक, संदिग्ध गतिविधि के कारण आपका बैंक खाता निलंबित कर दिया गया है। तुरंत सत्यापित करने के लिए यहां क्लिक करें: http://fake-bank-verify.in",
+        "📦 आपका Amazon पैकेज अवैतनिक सीमा शुल्क के कारण होल्ड पर है। इसे जारी करने के लिए अभी Rs. 499 का भुगतान करें: http://amz-delivery.in/pay"
     ],
     "kn": [
-        "🎰 ಅಭಿನಂದನೆಗಳು! ನಿಮ್ಮ ಮೊಬೈಲ್ ಸಂಖ್ಯೆ ರಿಲಯನ್ಸ್ Jio 10ನೇ ವಾರ್ಷಿಕೋತ್ಸವ ಲಕ್ಕಿ ಡ್ರಾ‌ವಿನಲ್ಲಿ Rs. 25,00,000 ಗೆದ್ದ ವಿಜೇತರಾಗಿ ಆಯ್ಕೆಯಾಗಿದೆ! ಬಹುಮತಿಯನ್ನು ಪಡೆಯಲು ತಕ್ಷಣ +91-98765-43210 ಗೆ ಕರೆ ಮಾಡಿ ಮತ್ತು Rs. 5,000 ಪ್ರಾಸೆಸಿಂಗ್ ಶುಲ್ಕ ಪಾವತಿಸಿ. ಯಾರೊಂದಿಗೂ ಹಂಚಿಕೊಳ್ಳಬೇಡಿ!",
-        "🏦 ಪ್ರಿಯ SBI ಗ್ರಾಹಕ, ಅಪೂರ್ಣ KYK ಅಪ್‌ಡೇಟ್ ಕಾರಣದಿಂದ ನಿಮ್ಮ ಖಾತೆಯನ್ನು 24 ಗಂಟೆಗಳಲ್ಲಿ ಬ್ಲಾಕ್ ಮಾಡಲಾಗುವುದು. ತಕ್ಷಣ ಧೃವೀಕರಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ: http://sbi-kyc-update-now.in/login",
-        "📦 Amazon Express: ನಿಮ್ಮ ಪ್ಯಾಕೇಜ್ #AMZ78432 ಮುಂಬೈ ಕಸ್ಟಮ್ಸ್‌ನಲ್ಲಿ ಅನುಪಜೀವಿ ಕ್ಲಿಯರೆನ್ಸ್ ಶುಲ್ಕ Rs. 899 ಕಾರಣ ಹೋಲ್ಡ್‌ನಲ್ಲಿದೆ. ಹಿಂತಿರುಗುವುದನ್ನು ತಪ್ಪಿಸಲು ಈಗ ಪಾವತಿಸಿ: http://amz-customs-clearance.in/pay?ref=78432"
-    ]
-}
-
-MORE_EXAMPLES = {
-    "en": [
-        ("⚡ Fake Electricity", "TSSPDCL NOTICE: Your electricity connection will be disconnected TONIGHT at 9 PM due to pending bill of Rs. 3,420. Pay immediately to avoid disconnection: http://pay-tsspdcl-bill.in/quickpay"),
-        ("💼 Fake Job", "Earn Rs. 5,000-10,000 per day from home! We are hiring for Amazon Data Entry. No experience needed. Pay a one-time registration fee of Rs. 999 to get your work kit. Contact on WhatsApp: +91-87654-32109"),
-        ("💳 Fake UPI Alert", "ALERT: Rs. 49,999 has been debited from your HDFC account via UPI. If this was not done by you, call immediately on 1800-599-XXXX to reverse the transaction. OTP will be sent for verification.")
-    ],
-    "te": [
-        ("⚡ నకిలీ విద్యుత్", "TSSPDCL నోటీసు: మీ విద్యుత్ కనెక్షన్ రాత్రి 9 గంటలకు కట్ అవుతుంది, Rs. 3,420 బిల్ బాకీ ఉంది. తక్షణం చెల్లించండి: http://pay-tsspdcl-bill.in/quickpay"),
-        ("💼 నకిలీ ఉద్యోగం", "రోజుకు Rs. 5,000-10,000 ఇంటి నుండి సంపాదించండి! Amazon డేటా ఎంట్రీ కోసం హైరింగ్. అనుభవం అవసరం లేదు. Rs. 999 నోందణి ఫీజు చెల్లించండి. WhatsApp: +91-87654-32109"),
-        ("💳 నకిలీ UPI అలర్ట్", "హెచ్చరిక: మీ HDFC ఖాతా నుండి UPI ద్వారా Rs. 49,999 డెబిట్ అయ్యింది. మీరు చేయకపోతే, వెంటనే 1800-599-XXXX కు కాల్ చేయండి. ధృవీకరణ కోసం OTP పంపబడుతుంది.")
-    ],
-    "ta": [
-        ("⚡ போலி மின்சாரம்", "TSSPDCL அறிவிப்பு: உங்கள் மின்சார இணைப்பு இன்று இரவு 9 மணிக்கு துண்டிக்கப்படும், Rs. 3,420 பில் நிலுவையில் உள்ளது. தவிர்க்க உடனடியாக செலுத்தவும்: http://pay-tsspdcl-bill.in/quickpay"),
-        ("💼 போலி வேலை", "வீட்டில் இருந்து ஒரு நாளைக்கு Rs. 5,000-10,000 சம்பாதியுங்கள்! Amazon Data Entry க்கு ஆளெடுக்கிறோம். அனுபவம் தேவையில்லை. Rs. 999 பதிவு கட்டணம் செலுத்தவும். WhatsApp: +91-87654-32109"),
-        ("💳 போலி UPI எச்சரிக்கை", "எச்சரிக்கை: உங்கள் HDFC கணக்கிலிருந்து UPI மூலம் Rs. 49,999 பிடித்தம் செய்யப்பட்டுள்ளது. நீங்கள் செய்யவில்லையென்றால், உடனடியாக 1800-599-XXXX எண்ணுக்கு அழைக்கவும். OTP அனுப்பப்படும்.")
-    ],
-    "hi": [
-        ("⚡ नकली बिजली", "TSSPDCL नोटिस: आपका बिजली कनेक्शन आज रात 9 बजे कट जाएगा क्योंकि Rs. 3,420 का बिल बाकी है। तुरंत भुगतान करें: http://pay-tsspdcl-bill.in/quickpay"),
-        ("💼 नकली नौकरी", "घर से हर दिन Rs. 5,000-10,000 कमाएं! Amazon Data Entry के लिए हायरिंग चल रही है। अनुभव जरूरी नहीं। Rs. 999 रजिस्ट्रेशन फीस दें। WhatsApp: +91-87654-32109"),
-        ("💳 नकली UPI अलर्ट", "अलर्ट: आपके HDFC खाते से UPI के जरिए Rs. 49,999 काट लिए गए हैं। अगर आपने नहीं किया है, तो तुरंत 1800-599-XXXX पर कॉल करें। वेरिफिकेशन के लिए OTP भेजा जाएगा।")
-    ],
-    "kn": [
-        ("⚡ ನಕಲಿ ವಿದ್ಯುತ್", "TSSPDCL ಸೂಚನೆ: ನಿಮ್ಮ ವಿದ್ಯುತ್ ಸಂಪರ್ಕವನ್ನು ಇಂದು ರಾತ್ರಿ 9 ಗಂಟೆಗೆ ಕತ್ತರಿಸಲಾಗುವುದು, Rs. 3,420 ಬಿಲ್ ಬಾಕಿ ఉందೆ. ತಕ್ಷಣ ಪಾವತಿಸಿ: http://pay-tsspdcl-bill.in/quickpay"),
-        ("💼 ನಕಲಿ ಉದ್ಯೋಗ", "ಮನೆಯಿಂದ ದಿನಕ್ಕೆ Rs. 5,000-10,000 ಸಂಪಾದಿಸಿ! Amazon ಡೇಟಾ ಎಂಟ್ರಿ ಗಾಗಿ ನೇಮಕಾತಿ. ಅನುಭವ ಅಗತ್ಯವಿಲ್ಲ. Rs. 999 ನೋಂದಣಿ ಶುಲ್ಕ ಪಾವತಿಸಿ. WhatsApp: +91-87654-32109"),
-        ("💳 ನಕಲಿ UPI ಎಚ್ಚರಿಕೆ", "ಎಚ್ಚರಿಕೆ: ನಿಮ್ಮ HDFC ಖಾತೆಯಿಂದ UPI ಮೂಲಕ Rs. 49,999 ಡೆಬಿಟ್ ಆಗಿದೆ. ನೀವು ಮಾಡದಿದ್ದರೆ, ತಕ್ಷಣ 1800-599-XXXX ಗೆ ಕರೆ ಮಾಡಿ. ಧೃವೀಕರಣಕ್ಕಾಗಿ OTP ಕಳುಹಿಸಲಾಗುತ್ತದೆ.")
+        "🎰 ಅಭಿನಂದನೆಗಳು! ನೀವು ಲಕ್ಕಿ ಡ್ರಾ‌ವಿನಲ್ಲಿ Rs. 5,00,000 ಗೆದ್ದಿದ್ದೀರಿ! ಬಹುಮತಿಯನ್ನು ಪಡೆಯಲು ತಕ್ಷಣ ಈ ಸಂಖ್ಯೆಗೆ ಕರೆ ಮಾಡಿ!",
+        "🏦 ಪ್ರಿಯ ಗ್ರಾಹಕ, ಅನುಮಾನಾಸ್ಪದ ಚಟುವಟಿಕೆಯ ಕಾರಣ ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಖಾತೆಯನ್ನು ನಿಲ್ಲಿಸಲಾಗಿದೆ. ತಕ್ಷಣ ಧೃವೀಕರಿಸಲು ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ: http://fake-bank-verify.in",
+        "📦 ನಿಮ್ಮ Amazon ಪ್ಯಾಕೇಜ್ ಅನುಪಜೀವಿ ಸುಂಕದ ಶುಲ್ಕದ ಕಾರಣ ಹೋಲ್ಡ್‌ನಲ್ಲಿದೆ. ಬಿಡುಗಡೆ ಮಾಡಲು ಈಗ Rs. 499 ಪಾವತಿಸಿ: http://amz-delivery.in/pay"
     ]
 }
 
@@ -871,84 +849,49 @@ QUIZ_DATA = {
 
 # ==================== TELECOM LOOKUP ====================
 def lookup_telecom_info(phone_number: str):
-    """Enhanced telecom lookup for Indian numbers using prefix heuristics.
-    Returns carrier, circle/region, line type and simulated SIM details."""
+    """Basic telecom lookup for Indian numbers using simple heuristics."""
     clean = re.sub(r"[^\d]", "", phone_number)
     if clean.startswith("91") and len(clean) > 10:
         clean = clean[2:]
     if len(clean) != 10:
         return None
-
-    # Enhanced carrier detection by first digit and common prefixes
-    first_digit = clean[0]
-    prefix2 = clean[:2]
-    prefix3 = clean[:3]
-    prefix4 = clean[:4]
-
-    # Specific carrier mapping for common Indian prefixes
-    if prefix2 in ["60", "61"]:
-        carrier = "Reliance Jio"
-    elif prefix2 == "62":
-        carrier = "Vi (Vodafone Idea)"
-    elif prefix2 in ["63", "64", "65"]:
-        carrier = "Airtel"
-    elif prefix2 == "66":
-        carrier = "BSNL"
-    elif prefix2 in ["70", "71", "72", "73", "74"]:
-        carrier = "Airtel / Reliance Jio"
-    elif prefix2 in ["75", "76", "77", "78", "79"]:
-        carrier = "Vi / Airtel"
-    elif prefix2 in ["80", "81", "82", "83", "84", "85", "86", "87", "88", "89"]:
-        carrier = "Airtel / Reliance Jio / Vi"
-    elif prefix2 in ["90", "91", "92", "93", "94", "95", "96", "97", "98", "99"]:
-        carrier = "Airtel / Reliance Jio / Vi / BSNL"
-    else:
-        carrier = "Unknown Carrier"
-
-    # Refined circle mapping with city-level detail
-    CIRCLE_DETAIL = {
-        "6000": ("Tamil Nadu", "Chennai"), "6001": ("Tamil Nadu", "Coimbatore"), "6002": ("Tamil Nadu", "Madurai"),
-        "6100": ("Kerala", "Kochi"), "6200": ("Karnataka", "Bangalore"), "6300": ("Andhra Pradesh", "Hyderabad"),
-        "6400": ("West Bengal", "Kolkata"), "6500": ("Maharashtra", "Pune"), "6600": ("Gujarat", "Ahmedabad"),
-        "6700": ("Punjab", "Ludhiana"), "6800": ("Haryana", "Gurgaon"), "6900": ("Bihar", "Patna"),
-        "7000": ("West Bengal", "Kolkata"), "7100": ("Odisha", "Bhubaneswar"), "7200": ("Assam", "Guwahati"),
-        "7300": ("Jammu & Kashmir", "Srinagar"), "7400": ("Karnataka", "Mysore"), "7500": ("Madhya Pradesh", "Bhopal"),
-        "7600": ("Rajasthan", "Jaipur"), "7700": ("Maharashtra", "Mumbai"), "7800": ("Uttar Pradesh", "Lucknow"),
-        "7900": ("Gujarat", "Surat"), "8000": ("Karnataka", "Bangalore"), "8100": ("Karnataka", "Mangalore"),
-        "8200": ("Kerala", "Thiruvananthapuram"), "8300": ("West Bengal", "Siliguri"), "8400": ("Bihar", "Gaya"),
-        "8500": ("Andhra Pradesh", "Vijayawada"), "8600": ("Tamil Nadu", "Salem"), "8700": ("Punjab", "Amritsar"),
-        "8800": ("Kolkata", "Kolkata"), "8900": ("Kolkata", "Howrah"), "9000": ("Maharashtra", "Nagpur"),
-        "9100": ("Andhra Pradesh", "Visakhapatnam"), "9200": ("Mumbai", "Mumbai"), "9300": ("Madhya Pradesh", "Indore"),
-        "9400": ("Kerala", "Kozhikode"), "9500": ("Tamil Nadu", "Trichy"), "9600": ("Karnataka", "Hubli"),
-        "9700": ("Andhra Pradesh", "Guntur"), "9800": ("West Bengal", "Durgapur"), "9900": ("Delhi", "New Delhi")
+    PREFIX_CARRIERS = {
+        "6": "Reliance Jio / Vi / Airtel",
+        "7": "Airtel / Vi / BSNL",
+        "8": "Airtel / Reliance Jio / Vi",
+        "9": "Airtel / Reliance Jio / Vi / BSNL"
     }
-
-    circle_info = CIRCLE_DETAIL.get(prefix4, ("Unknown Region", "Unknown City"))
-    region, city = circle_info
-
-    # Simulate SIM type based on number hash
-    h = hash(clean)
-    sim_type = "Prepaid" if h % 2 == 0 else "Postpaid"
-
+    first_digit = clean[0]
+    carrier = PREFIX_CARRIERS.get(first_digit, "Unknown Carrier")
+    CIRCLE_MAP = {
+        "6000": "Tamil Nadu", "6001": "Tamil Nadu", "6002": "Tamil Nadu",
+        "6100": "Kerala", "6200": "Karnataka", "6300": "Andhra Pradesh",
+        "6400": "West Bengal", "6500": "Maharashtra", "6600": "Gujarat",
+        "6700": "Punjab", "6800": "Haryana", "6900": "Bihar",
+        "7000": "West Bengal", "7100": "Odisha", "7200": "Assam",
+        "7300": "Jammu & Kashmir", "7400": "Karnataka", "7500": "Madhya Pradesh",
+        "7600": "Rajasthan", "7700": "Maharashtra", "7800": "Uttar Pradesh",
+        "7900": "Gujarat", "8000": "Karnataka", "8100": "Karnataka",
+        "8200": "Kerala", "8300": "West Bengal", "8400": "Bihar",
+        "8500": "Andhra Pradesh", "8600": "Tamil Nadu", "8700": "Punjab",
+        "8800": "Kolkata", "8900": "Kolkata", "9000": "Maharashtra",
+        "9100": "Andhra Pradesh", "9200": "Mumbai", "9300": "Madhya Pradesh",
+        "9400": "Kerala", "9500": "Tamil Nadu", "9600": "Karnataka",
+        "9700": "Andhra Pradesh", "9800": "West Bengal", "9900": "Delhi"
+    }
+    prefix4 = clean[:4]
+    circle = CIRCLE_MAP.get(prefix4, "Unknown Region")
     return {
-        "valid": True,
-        "carrier": carrier,
-        "line_type": "Mobile",
-        "line_status": "Active",
-        "country": "India",
-        "region": region,
-        "city": city,
-        "timezone": "IST (UTC+5:30)",
-        "sim_type": sim_type,
-        "number": clean
+        "valid": True, "carrier": carrier, "line_type": "Mobile",
+        "line_status": "Active", "country": "India", "region": circle,
+        "city": circle, "timezone": "IST (UTC+5:30)"
     }
 
 # ==================== TRUECALLER-STYLE CHECK ====================
 def truecaller_style_check(phone_number: str):
-    """Enhanced simulated Truecaller-style spam check for Indian numbers.
-    NOTE: Truecaller does not have a public API. This is a realistic heuristic
-    simulation that generates consistent owner names and location data.
-    For real Truecaller data, integrate their Business API partnership.
+    """Enhanced Truecaller-style spam check for Indian numbers.
+    NOTE: Truecaller does not have a public API. This is a heuristic simulation.
+    For real Truecaller data, you need their Business API partnership.
     """
     clean = re.sub(r"[^\d]", "", phone_number)
     if clean.startswith("91") and len(clean) > 10:
@@ -956,106 +899,79 @@ def truecaller_style_check(phone_number: str):
     if len(clean) != 10:
         return None
 
-    h = hash(clean)
-    prefix3 = clean[:3]
-    prefix4 = clean[:4]
-
-    # Simulated owner name database (consistent per number)
-    FIRST_NAMES = [
-        "Rajesh", "Priya", "Suresh", "Anjali", "Vikram", "Deepa", "Ravi", "Pooja",
-        "Amit", "Sneha", "Karthik", "Lakshmi", "Arun", "Meera", "Sanjay", "Kavita",
-        "Manoj", "Divya", "Rahul", "Sunita", "Naveen", "Rekha", "Ganesh", "Anita",
-        "Vijay", "Shalini", "Prakash", "Nisha", "Harish", "Geeta", "Dinesh", "Sapna"
-    ]
-    LAST_NAMES = [
-        "Kumar", "Singh", "Sharma", "Patel", "Reddy", "Nair", "Rao", "Gupta",
-        "Das", "Joshi", "Malhotra", "Iyer", "Mehta", "Pillai", "Desai", "Jain",
-        "Agarwal", "Banerjee", "Yadav", "Choudhary", "Mishra", "Khanna", "Bhat",
-        "Menon", "Naidu", "Chauhan", "Shah", "Verma", "Kapoor", "Rathore"
-    ]
-
-    # Generate consistent simulated owner
-    owner_name = f"{FIRST_NAMES[h % len(FIRST_NAMES)]} {LAST_NAMES[h % len(LAST_NAMES)]}"
-    # Some numbers appear as private/unknown
-    if h % 15 == 0:
-        owner_name = "Unknown / Private"
-    elif h % 12 == 0:
-        owner_name = "Business / Telecaller"
-
-    # Location detail from telecom lookup
-    CIRCLE_DETAIL = {
-        "6000": ("Tamil Nadu", "Chennai"), "6001": ("Tamil Nadu", "Coimbatore"), "6002": ("Tamil Nadu", "Madurai"),
-        "6100": ("Kerala", "Kochi"), "6200": ("Karnataka", "Bangalore"), "6300": ("Andhra Pradesh", "Hyderabad"),
-        "6400": ("West Bengal", "Kolkata"), "6500": ("Maharashtra", "Pune"), "6600": ("Gujarat", "Ahmedabad"),
-        "6700": ("Punjab", "Ludhiana"), "6800": ("Haryana", "Gurgaon"), "6900": ("Bihar", "Patna"),
-        "7000": ("West Bengal", "Kolkata"), "7100": ("Odisha", "Bhubaneswar"), "7200": ("Assam", "Guwahati"),
-        "7300": ("Jammu & Kashmir", "Srinagar"), "7400": ("Karnataka", "Mysore"), "7500": ("Madhya Pradesh", "Bhopal"),
-        "7600": ("Rajasthan", "Jaipur"), "7700": ("Maharashtra", "Mumbai"), "7800": ("Uttar Pradesh", "Lucknow"),
-        "7900": ("Gujarat", "Surat"), "8000": ("Karnataka", "Bangalore"), "8100": ("Karnataka", "Mangalore"),
-        "8200": ("Kerala", "Thiruvananthapuram"), "8300": ("West Bengal", "Siliguri"), "8400": ("Bihar", "Gaya"),
-        "8500": ("Andhra Pradesh", "Vijayawada"), "8600": ("Tamil Nadu", "Salem"), "8700": ("Punjab", "Amritsar"),
-        "8800": ("Kolkata", "Kolkata"), "8900": ("Kolkata", "Howrah"), "9000": ("Maharashtra", "Nagpur"),
-        "9100": ("Andhra Pradesh", "Visakhapatnam"), "9200": ("Mumbai", "Mumbai"), "9300": ("Madhya Pradesh", "Indore"),
-        "9400": ("Kerala", "Kozhikode"), "9500": ("Tamil Nadu", "Trichy"), "9600": ("Karnataka", "Hubli"),
-        "9700": ("Andhra Pradesh", "Guntur"), "9800": ("West Bengal", "Durgapur"), "9900": ("Delhi", "New Delhi")
-    }
-    loc_info = CIRCLE_DETAIL.get(prefix4, ("Unknown Region", "Unknown City"))
-    region, city = loc_info
-
-    # Heuristic spam scoring
     spam_score = 0
     report_count = 0
     category = "Unknown"
+    name = "Unknown"
+    location = "Unknown"
+    carrier_detail = "Unknown"
 
-    high_risk_prefixes = ["140", "141", "142", "143", "1800"]
-    medium_risk_prefixes = ["600", "601", "602", "700", "701", "702"]
+    first_digit = clean[0]
+    prefix3 = clean[:3]
+    prefix4 = clean[:4]
+
+    # Granular carrier detection (heuristic)
+    if prefix4 in ["6300","6301","6302","6303","6304","6390","6391","6392"]:
+        carrier_detail = "Reliance Jio"
+    elif prefix4 in ["6305","6310","6315","6320","6325","6370","6375"]:
+        carrier_detail = "Airtel"
+    elif prefix4 in ["6330","6335","6340","6345","6360","6365"]:
+        carrier_detail = "Vi (Vodafone Idea)"
+    elif prefix4 in ["6350","6355","6380","6385"]:
+        carrier_detail = "BSNL"
+    else:
+        carrier_map = {
+            "6": "Reliance Jio / Vi / Airtel",
+            "7": "Airtel / Vi / BSNL",
+            "8": "Airtel / Reliance Jio / Vi",
+            "9": "Airtel / Reliance Jio / Vi / BSNL"
+        }
+        carrier_detail = carrier_map.get(first_digit, "Unknown")
+
+    # Location from telecom lookup
+    telecom_info = lookup_telecom_info(clean)
+    if telecom_info:
+        location = f"{telecom_info['city']}, {telecom_info['region']}"
+
+    # Heuristic risk patterns
+    high_risk_prefixes = ["140", "141", "142", "143", "1800", "1860"]
+    medium_risk_prefixes = ["600", "601", "602", "700", "701", "702", "703", "704", "705", "706", "707", "708", "709"]
+    has_repeated = bool(re.search(r'(\d)\1{4,}', clean))
 
     if prefix3 in high_risk_prefixes or prefix4 in high_risk_prefixes:
-        spam_score = min(95, 70 + (h % 25))
-        report_count = 50 + (h % 200)
+        spam_score = min(95, 75 + (abs(hash(clean)) % 20))
+        report_count = 200 + (abs(hash(clean)) % 800)
         category = "Telemarketing / Spam"
-        if h % 5 == 0:
-            owner_name = "Spam Caller"
-    elif prefix3 in medium_risk_prefixes or prefix4 in medium_risk_prefixes:
-        spam_score = min(70, 40 + (h % 30))
-        report_count = 10 + (h % 40)
+        names = ["Telemarketing", "Spam Caller", "Service", "Fraud Alert", "Unknown"]
+        name = names[abs(hash(clean)) % len(names)]
+        location = location if location != "Unknown" else "Pan India"
+    elif prefix3 in medium_risk_prefixes or has_repeated:
+        spam_score = min(75, 45 + (abs(hash(clean)) % 25))
+        report_count = 20 + (abs(hash(clean)) % 80)
         category = "Suspicious"
+        name = "Unknown"
     else:
-        spam_score = h % 30
-        report_count = h % 5
+        base_hash = abs(hash(clean))
+        spam_score = base_hash % 25
+        report_count = base_hash % 5
         category = "Safe"
+        name = "Unknown"
 
-    # Pattern-based adjustments
-    if clean[-4:] in ["0000", "1111", "1234"]:
-        spam_score += 10
-        report_count += 5
-    if clean[-3:] == "999":
-        spam_score += 5
-        report_count += 3
+    if has_repeated and category == "Safe":
+        spam_score += 15
+        report_count += 10
+        category = "Suspicious"
 
     spam_score = min(100, max(0, spam_score))
-
-    # SIM type simulation
-    sim_type = "Prepaid" if h % 2 == 0 else "Postpaid"
-
-    # Spam history simulation
-    if spam_score >= 70:
-        spam_history = f"Reported {report_count} times for telemarketing, fraud calls, and phishing attempts in the last 90 days."
-    elif spam_score >= 30:
-        spam_history = f"Reported {report_count} times for unsolicited calls and promotional messages."
-    else:
-        spam_history = f"Reported {report_count} times. No significant spam activity detected."
 
     return {
         "spam_score": spam_score,
         "report_count": report_count,
         "category": category,
-        "name": owner_name,
-        "location": f"{city}, {region}",
-        "region": region,
-        "city": city,
-        "sim_type": sim_type,
-        "spam_history": spam_history,
+        "name": name,
+        "location": location,
+        "carrier_detail": carrier_detail,
+        "number_type": "Mobile",
         "is_safe": spam_score < 30,
         "is_warning": 30 <= spam_score < 70,
         "is_spam": spam_score >= 70
@@ -1342,7 +1258,6 @@ def show_history_tab(user_id: int, ui: dict):
 # ==================== MAIN APP ====================
 # If not logged in, show auth page
 if st.session_state.user is None:
-    # Use English UI for auth page
     show_auth_page(UI_TRANSLATIONS["en"])
     st.stop()
 
@@ -1422,26 +1337,21 @@ with tab1:
     st.header(T["message_checker"])
     st.markdown(f"<p style='color: #64748b;'>{UI['paste_any']}</p>", unsafe_allow_html=True)
 
+    # Initialize text area session state for examples
+    if "msg_text_area" not in st.session_state:
+        st.session_state.msg_text_area = ""
+
     st.markdown(f"**{UI['try_example']}**")
     examples = EXAMPLE_MESSAGES.get(lang_code, EXAMPLE_MESSAGES["en"])
     cols = st.columns(3)
     for i, ex in enumerate(examples):
         with cols[i]:
             if st.button(f"{['🎰', '🏦', '📦'][i]} {UI[['fake_lottery', 'fake_bank', 'fake_delivery'][i]]}", key=f"ex_{i}"):
-                st.session_state["msg_input"] = ex
-
-    # Additional scam examples
-    with st.expander(UI.get("more_examples", "📚 More Scam Examples")):
-        more_examples = MORE_EXAMPLES.get(lang_code, MORE_EXAMPLES["en"])
-        mcols = st.columns(3)
-        for idx, (label, msg) in enumerate(more_examples):
-            with mcols[idx]:
-                if st.button(label, key=f"more_ex_{idx}"):
-                    st.session_state["msg_input"] = msg
+                st.session_state.msg_text_area = ex
+                st.rerun()
 
     msg_input = st.text_area(
         T["paste_message"],
-        value=st.session_state.get("msg_input", ""),
         height=150,
         key="msg_text_area"
     )
@@ -1507,8 +1417,52 @@ with tab3:
                 if not (len(clean_phone) == 10 or (clean_phone.startswith("+91") and len(clean_phone) == 13) or (clean_phone.startswith("91") and len(clean_phone) == 12)):
                     st.error(UI["invalid_phone"])
                 else:
-                    # Telecom lookup
+                    # Enhanced Truecaller-style Caller ID + Telecom lookup
+                    tc_result = truecaller_style_check(clean_phone)
                     telecom = lookup_telecom_info(clean_phone)
+
+                    if tc_result:
+                        tc_class = "truecaller-safe" if tc_result["is_safe"] else ("truecaller-spam" if tc_result["is_spam"] else "truecaller-warning")
+                        tc_label = UI.get("truecaller_safe", "Safe") if tc_result["is_safe"] else (UI.get("truecaller_spam", "Spam") if tc_result["is_spam"] else UI.get("truecaller_warning", "Warning"))
+                        tc_emoji = "✅" if tc_result["is_safe"] else ("🚫" if tc_result["is_spam"] else "⚠️")
+
+                        st.subheader("📱 Truecaller Identity Check")
+                        st.caption(UI.get("truecaller_note", ""))
+
+                        st.markdown(f"""
+                            <div class="{tc_class}" style="padding: 1.5rem; border-radius: 20px; margin-bottom: 1rem;">
+                                <div style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+                                    <div style="width: 64px; height: 64px; border-radius: 50%; background: white; display: flex; align-items: center; justify-content: center; font-size: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+                                        {tc_emoji}
+                                    </div>
+                                    <div style="flex: 1; min-width: 150px;">
+                                        <div style="font-size: 1.5rem; font-weight: 800;">{tc_result['name']}</div>
+                                        <div style="font-size: 1.1rem; font-weight: 600; opacity: 0.9;">{clean_phone[:4]}****{clean_phone[-2:]}</div>
+                                        <div style="margin-top: 0.4rem; display: inline-block; padding: 0.3rem 1rem; border-radius: 12px; background: rgba(255,255,255,0.5); font-weight: 700; font-size: 0.9rem;">
+                                            {tc_label} • {tc_result['spam_score']}/100
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 1.2rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 0.8rem; text-align: center;">
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">📍 Location</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['location']}</div>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">📡 Carrier / SIM</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['carrier_detail']}</div>
+                                    </div>
+                                    <div style="background: rgba(255,255,255,0.4); padding: 0.6rem; border-radius: 12px;">
+                                        <div style="font-size: 0.7rem; opacity: 0.8; text-transform: uppercase; font-weight: 700;">🚩 Reports</div>
+                                        <div style="font-size: 0.95rem; font-weight: 700; margin-top: 0.2rem;">{tc_result['report_count']}</div>
+                                    </div>
+                                </div>
+                            </div>
+                        """, unsafe_allow_html=True)
+                    else:
+                        st.info(UI.get("lookup_unavailable", "Lookup unavailable"))
+
+                    # Telecom Intelligence details
                     if telecom:
                         with st.expander(UI["telecom_intelligence"]):
                             col1, col2 = st.columns(2)
@@ -1517,7 +1471,6 @@ with tab3:
                                 st.write(f"**{UI['carrier']}:** {telecom['carrier']}")
                                 st.write(f"**{UI['line_type']}:** {telecom['line_type']}")
                                 st.write(f"**{UI['line_status']}:** {telecom['line_status']}")
-                                st.write(f"**{UI.get('sim_type', 'SIM Type')}:** {telecom.get('sim_type', 'Unknown')}")
                             with col2:
                                 st.write(f"**{UI['country']}:** {telecom['country']}")
                                 st.write(f"**{UI['region']}:** {telecom['region']}")
@@ -1526,47 +1479,6 @@ with tab3:
                         st.caption(UI["telecom_not_verdict"])
                     else:
                         st.info(UI["lookup_unavailable"])
-
-                    # Truecaller-style check
-                    tc_result = truecaller_style_check(clean_phone)
-                    if tc_result:
-                        st.divider()
-                        st.subheader(f"📱 Truecaller-Style Check")
-                        st.caption(UI["truecaller_note"])
-
-                        tc_class = "truecaller-safe" if tc_result["is_safe"] else ("truecaller-spam" if tc_result["is_spam"] else "truecaller-warning")
-                        tc_label = UI["truecaller_safe"] if tc_result["is_safe"] else (UI["truecaller_spam"] if tc_result["is_spam"] else UI["truecaller_warning"])
-                        tc_emoji = "✅" if tc_result["is_safe"] else ("🚫" if tc_result["is_spam"] else "⚠️")
-
-                        st.markdown(f"""
-                            <div class="{tc_class}">
-                                <div style="font-size: 2rem;">{tc_emoji}</div>
-                                <div style="font-size: 1.3rem;">{tc_label}</div>
-                                <div style="font-size: 0.9rem; margin-top: 0.3rem; opacity: 0.9;">
-                                    {UI['truecaller_spam_score']}: {tc_result['spam_score']}/100 | 
-                                    {UI['truecaller_reports']}: {tc_result['report_count']}
-                                </div>
-                            </div>
-                        """, unsafe_allow_html=True)
-
-                        # Enhanced Truecaller detail card
-                        st.markdown("""
-                            <div class="truecaller-detail">
-                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
-                        """, unsafe_allow_html=True)
-
-                        col1, col2 = st.columns(2)
-                        with col1:
-                            st.metric(UI.get("sim_owner", "SIM Owner"), tc_result["name"])
-                            st.metric("Category", tc_result["category"])
-                            st.metric(UI.get("sim_type", "SIM Type"), tc_result.get("sim_type", "Unknown"))
-                        with col2:
-                            st.metric(UI.get("call_location", "Location"), tc_result.get("location", "Unknown"))
-                            st.metric("Risk Level", "High" if tc_result["is_spam"] else ("Medium" if tc_result["is_warning"] else "Low"))
-                            st.metric("Line Type", "Mobile")
-
-                        with st.expander(UI.get("spam_history", "Spam History")):
-                            st.write(tc_result.get("spam_history", "No history available."))
 
                     # AI Analysis
                     result = analyze_call_ai(clean_phone, call_desc, call_count, lang_code)
