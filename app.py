@@ -1,6 +1,10 @@
 # Raksha - Family Digital Safety Guardian
-# Fixed version with deterministic Truecaller-style lookup and telecom circle mapping.
-# 
+# Version with NumVerify API integration + deterministic fallback.
+#
+# REQUIRED SECRETS (add in Streamlit Cloud / .env):
+#   GROQ_API_KEY      — for AI scam analysis
+#   NUMVERIFY_API_KEY — for real phone validation & carrier lookup (get from numverify.com)
+#
 # GOOGLE LOGIN SETUP (Streamlit Cloud):
 # 1. Deploy on Streamlit Cloud (share.streamlit.io)
 # 2. Go to App Settings → Authentication → Enable Google OAuth
@@ -21,7 +25,14 @@ import sqlite3
 import hashlib
 import secrets
 import datetime
+import urllib.request
+import urllib.parse
+import ssl
 from groq import Groq
+
+# ==================== CONFIG / SECRETS ====================
+# NumVerify API key — add this in your Streamlit secrets or .env file
+NUMVERIFY_API_KEY = os.getenv("NUMVERIFY_API_KEY", "")
 
 # ==================== DATABASE & AUTH SETUP ====================
 DB_PATH = "raksha.db"
@@ -867,9 +878,66 @@ def _get_number_hash(clean_number: str):
     """Deterministic hash so the same number always gives the same result."""
     return int(hashlib.md5(clean_number.encode()).hexdigest(), 16)
 
+# ==================== NUMVERIFY API LOOKUP ====================
+def lookup_numverify(phone_number: str):
+    """Real phone validation via NumVerify API (apilayer.net).
+    Returns parsed dict or None on failure / no key.
+    """
+    if not NUMVERIFY_API_KEY:
+        return None
+
+    clean = re.sub(r"[^\d]", "", phone_number)
+    # NumVerify expects international format with country code
+    if len(clean) == 10:
+        query_number = "+91" + clean
+    elif clean.startswith("91") and len(clean) == 12:
+        query_number = "+" + clean
+    else:
+        query_number = "+" + clean
+
+    params = urllib.parse.urlencode({
+        "access_key": NUMVERIFY_API_KEY,
+        "number": query_number,
+        "country_code": "IN",
+        "format": "1"
+    })
+    url = f"http://apilayer.net/api/validate?{params}"
+
+    try:
+        ctx = ssl.create_default_context()
+        with urllib.request.urlopen(url, timeout=8, context=ctx) as response:
+            data = json.loads(response.read().decode("utf-8"))
+
+        if not data.get("valid") and data.get("error"):
+            # API returned an error (e.g. quota exceeded, invalid key)
+            return None
+
+        # Map NumVerify fields to our internal format
+        return {
+            "valid": data.get("valid", False),
+            "carrier": data.get("carrier", "Unknown"),
+            "line_type": data.get("line_type", "Unknown").capitalize(),
+            "line_status": "Active" if data.get("valid") else "Unknown",
+            "country": data.get("country_name", "India"),
+            "region": data.get("location", "Unknown"),
+            "city": data.get("location", "Unknown"),
+            "timezone": data.get("country_name", "India") + " (IST UTC+5:30)"
+        }
+    except Exception:
+        return None
+
+
 # ==================== TELECOM LOOKUP ====================
 def lookup_telecom_info(phone_number: str):
-    """Telecom lookup for Indian numbers with realistic circle mapping."""
+    """Telecom lookup for Indian numbers.
+    Tries NumVerify API first (if key is set), falls back to deterministic mapping.
+    """
+    # --- Try real NumVerify lookup first ---
+    nv_result = lookup_numverify(phone_number)
+    if nv_result:
+        return nv_result
+
+    # --- Fallback: deterministic heuristic ---
     clean = re.sub(r"[^\d]", "", phone_number)
     if clean.startswith("91") and len(clean) > 10:
         clean = clean[2:]
